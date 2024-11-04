@@ -4,27 +4,45 @@ import os
 from folium.plugins import MarkerCluster
 
 # Folder containing CSV files
-csv_folder = 'data'
+csv_folder = 'data/'
 
-# Initialize a Folium map centered on Australia with CartoDB positron tiles
+# Initialize a Folium map centered on Australia with a light theme
 aus_map = folium.Map(location=[-25.2744, 133.7751], zoom_start=4, tiles="CartoDB positron",
                      attr="&copy; <a href='https://carto.com/attributions'>CARTO</a>")
 
-# Add state borders using GeoJSON
-# You can replace this URL with a path to a local GeoJSON file if needed
-geojson_url = "data/state_borders.geojson"
+# Add state borders using GeoJSON and fill states with different colors
+geojson_url = "data/states.geojson"
+# Define colors for each state
+state_colors = {
+    "New South Wales": "lightblue",
+    "Victoria": "lightgreen",
+    "Queensland": "lightsalmon",
+    "Western Australia": "lightcoral",
+    "South Australia": "lightpink",
+    "Tasmania": "lightgrey",
+    "Australian Capital Territory": "lightcyan",
+    "Northern Territory": "lightgoldenrodyellow"
+}
+
+# Function to style each state based on its name
+def style_function(feature):
+    state_name = feature['properties']['STATE_NAME']
+    return {
+        'fillColor': state_colors.get(state_name, 'lightgray'),  # Default to lightgray if state not found
+        'color': 'black',           # Border color
+        'weight': 2,
+        'fillOpacity': 0.25          # Opacity level
+    }
+
+# Add GeoJSON layer for states with the defined style
 folium.GeoJson(
     geojson_url,
     name="State Borders",
-    style_function=lambda x: {
-        'fillColor': 'transparent',
-        'color': 'black',
-        'weight': 2
-    }
+    style_function=style_function
 ).add_to(aus_map)
 
 # List of colors for markers; add more colors if needed
-colors = ["blue", "green", "purple", "orange", "darkred", "cadetblue", "darkgreen", "darkpurple", "lightblue"]
+marker_colors = ["blue", "green", "purple", "orange", "darkred", "cadetblue", "darkgreen", "darkpurple", "lightblue"]
 
 # Loop through each CSV file in the folder
 for idx, filename in enumerate(os.listdir(csv_folder)):
@@ -36,10 +54,10 @@ for idx, filename in enumerate(os.listdir(csv_folder)):
         # Check if required columns exist
         if {'Longitude', 'Latitude', 'Postcode', 'Locality', 'State'}.issubset(df.columns):
             # Assign a color for the current file and remove ".csv" extension from the name
-            color = colors[idx % len(colors)]  # Cycle through colors if more files than colors
+            marker_color = marker_colors[idx % len(marker_colors)]  # Color remains constant for each CSV file
             clean_filename = filename.replace('.csv', '')
 
-            # Create a MarkerCluster with color consistency for each CSV file
+            # Create a MarkerCluster
             file_cluster = MarkerCluster(name=clean_filename).add_to(aus_map)
 
             # Loop through each row in the CSV
@@ -56,8 +74,28 @@ for idx, filename in enumerate(os.listdir(csv_folder)):
                 
                 # Create an HTML table for the popup with directions link
                 popup_html = f"""
-                <table style="width: 220px; border: 1px solid black; border-collapse: collapse;">
-                    <tr><th colspan="2" style="background-color: #f2f2f2;">{clean_filename}</th></tr>
+                <style>
+                    table {{
+                        width: 220px; 
+                        border: 1px solid black; 
+                        border-collapse: collapse;
+                        font-family: Arial, sans-serif;
+                    }}
+                    th {{
+                        background-color: #f2f2f2;
+                        text-align: left;
+                        padding: 8px;
+                    }}
+                    td {{
+                        padding: 8px;
+                        border: 1px solid black;
+                    }}
+                    tr:nth-child(even) {{
+                        background-color: #f9f9f9;
+                    }}
+                </style>
+                <table>
+                    <tr><th colspan="2">{clean_filename}</th></tr>
                     <tr><td><b>Locality</b></td><td>{locality}</td></tr>
                     <tr><td><b>Postcode</b></td><td>{postcode}</td></tr>
                     <tr><td><b>State</b></td><td>{state}</td></tr>
@@ -69,14 +107,17 @@ for idx, filename in enumerate(os.listdir(csv_folder)):
                 </table>
                 """
                 
-                # Add a CircleMarker to the file's MarkerCluster for each location
-                folium.CircleMarker(
+                # Create a custom icon with a circle and "i"
+                icon_html = f"""
+                <div style="background-color: {marker_color}; border-radius: 50%; width: 30px; height: 30px; text-align: center; line-height: 30px; color: white; font-weight: bold; font-size: 18px;">
+                    i
+                </div>
+                """
+                
+                # Add a Marker with a custom DivIcon
+                folium.Marker(
                     location=[latitude, longitude],
-                    radius=8,  # Scalable size
-                    color=color,
-                    fill=True,
-                    fill_color=color,
-                    fill_opacity=0.7,
+                    icon=folium.DivIcon(html=icon_html),  # Custom DivIcon with "i"
                     popup=folium.Popup(popup_html, max_width=250),
                     tooltip=f"{locality}, {state}"  # Shows locality and state on hover
                 ).add_to(file_cluster)
@@ -85,4 +126,4 @@ for idx, filename in enumerate(os.listdir(csv_folder)):
 folium.LayerControl().add_to(aus_map)
 
 # Save the map as an HTML file
-aus_map.save("australian_cities_map.html")
+aus_map.save("index.html")
