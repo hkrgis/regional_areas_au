@@ -37,7 +37,7 @@ def style_function(feature):
 # Add GeoJSON layer for states with the defined style
 folium.GeoJson(
     geojson_url,
-    name="State Borderss",
+    name="State Borders",
     style_function=style_function
 ).add_to(aus_map)
 
