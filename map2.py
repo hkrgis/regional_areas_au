@@ -1,7 +1,10 @@
+from os import name
 import pandas as pd
 import folium
 from folium.plugins import MarkerCluster
 from folium import IFrame
+from folium.features import CustomIcon
+
 
 # Load datasets
 postcode_data = pd.read_csv("data/australian_postcodes.csv")
@@ -9,8 +12,8 @@ regional_data = pd.read_csv("data/regional_postcodes.csv")
 
 # Prepare a color dictionary for categories
 category_colors = {
-    "Category1": "#3498db",      # Blue
-    "Category2": "#2ecc71",      # Green
+    "Cities and Major Regional Centres":            "darkgreen",      # Blue
+    "Regional Centres and Other Regional Areas":    "lightred",      # Green
     "Category3": "#e74c3c",      # Red
 }
 
@@ -28,7 +31,31 @@ state_colors = {
 
 # Initialize map centered on Australia with a lighter tile
 map_center = [-25.2744, 133.7751]  # Rough center of Australia
-m = folium.Map(location=map_center, zoom_start=4, tiles='CartoDB positron')
+m = folium.Map(location=map_center, zoom_start=4, control_scale=True, tiles=None)
+
+# Add Hybrid Imagery basemap
+folium.TileLayer(
+    tiles="https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
+    attr="© Google",
+    name="Satellite Hybrid Imagery",
+    subdomains=["mt0", "mt1", "mt2", "mt3"]
+).add_to(m)
+
+# Add CartoDB Dark Matter basemap
+folium.TileLayer(
+    tiles='https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+    attr='© OpenStreetMap contributors & CARTO',
+    name='Dark Map',
+    subdomains='abcd'
+).add_to(m)
+
+# Add CartoDB positron basemap with a proper name
+folium.TileLayer(
+    tiles='https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+    attr='© OpenStreetMap contributors & CARTO',
+    name="Light Map",
+    subdomains='abcd'
+).add_to(m)
 
 # Create a dictionary to store MarkerClusters for each state
 state_marker_clusters = {}
@@ -46,7 +73,7 @@ for state in regional_data['state'].unique():
         category = region_row['category']
         start_postcode = region_row['start_postcode']
         end_postcode = region_row['end_postcode']
-        color = category_colors.get(category, "#808080")  # Default to gray if category color is not defined
+        pin_color = category_colors.get(category, "#808080")  # Default to gray if category color is not defined
         
         # Filter the relevant postcodes within the given range
         relevant_postcodes = postcode_data[
@@ -111,15 +138,23 @@ for state in regional_data['state'].unique():
 
             iframe = IFrame(popup_html, width=250, height=260)  # Adjust height as needed
             
-            folium.CircleMarker(
+            # folium.CircleMarker(
+            #     location=(row['latitude'], row['longitude']),
+            #     radius=6,  # Size of the pin
+            #     color=pin_color,
+            #     fill=True,
+            #     fill_color=pin_color,
+            #     fill_opacity=0.5,
+            #     popup=folium.Popup(iframe, max_width=255)
+            # ).add_to(marker_cluster)
+
+            folium.Marker(
                 location=(row['latitude'], row['longitude']),
-                radius=6,  # Size of the pin
-                color=color,
-                fill=True,
-                fill_color=color,
-                fill_opacity=0.5,
+                icon=folium.Icon(color=pin_color, icon='map-marker', prefix="glyphicon"),  # Custom symbol/icon
                 popup=folium.Popup(iframe, max_width=255)
             ).add_to(marker_cluster)
+
+            
     
     # Store the marker cluster for the state
     state_marker_clusters[state] = marker_cluster

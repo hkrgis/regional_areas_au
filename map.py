@@ -30,6 +30,7 @@ state_colors = {
 map_center = [-25.2744, 133.7751]  # Rough center of Australia
 m = folium.Map(location=map_center, zoom_start=5, tiles='CartoDB positron')
 
+
 # Add marker clustering for aggregation
 marker_cluster = MarkerCluster().add_to(m)
 
