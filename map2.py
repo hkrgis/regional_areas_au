@@ -3,12 +3,15 @@ import pandas as pd
 import folium
 from folium.plugins import MarkerCluster
 from folium import IFrame
-from folium.features import CustomIcon
+
 
 
 # Load datasets
 postcode_data = pd.read_csv("data/australian_postcodes.csv")
 regional_data = pd.read_csv("data/regional_postcodes.csv")
+
+# Create a list to store markers and their search data
+marker_list = []
 
 # Prepare a color dictionary for categories
 category_colors = {
@@ -66,7 +69,11 @@ for state in regional_data['state'].unique():
     state_data = regional_data[regional_data['state'] == state]
     
     # Initialize a MarkerCluster for the state
-    marker_cluster = MarkerCluster(name=state).add_to(m)
+    marker_cluster = MarkerCluster(
+        name=state, 
+        options={"showCoverageOnHover": False,
+        "removeOutsideVisibleBounds": True,
+        "spiderfyOnMaxZoom": True}).add_to(m)
     
     # Iterate over regions in the current state
     for _, region_row in state_data.iterrows():
@@ -87,8 +94,18 @@ for state in regional_data['state'].unique():
             if row['latitude'] == 0 or row['longitude'] == 0 or not (-44 < row['latitude'] < -10) or not (110 < row['longitude'] < 160):
                 continue
 
+    
+
             # Create a clean filename for the pop-up title
             clean_filename = row['locality']  # You can customize this further if needed
+            
+            # Add marker data to search list for search functionality
+            marker_list.append({
+                'lat': row['latitude'],
+                'lon': row['longitude'],
+                'popup': clean_filename,  # Locality Name (or any other data you prefer)
+                'postcode': row['postcode']  # Postcode for search functionality
+            })
             
             # Google Maps directions link
             directions_link = f"https://www.google.com/maps/dir/?api=1&destination={row['latitude']},{row['longitude']}&travelmode=driving"
