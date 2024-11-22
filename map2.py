@@ -197,6 +197,3 @@ folium.LayerControl().add_to(m)
 # Save the map as an HTML file
 m.save("index.html")
 print("Map saved as 'index.html'.")
-
-# Additional code for cache control meta tags and responsive zoom functionality...
-# This part remains the same as in your previous code.
