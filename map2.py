@@ -265,23 +265,29 @@ help_button_html = """
             padding-top: 40px; /* To leave space for the close button */
             box-sizing: border-box;
         }
+
         @media (max-width: 480px) {
+            /* Further adjust the help button size and position for very small screens */
             #help-btn {
                 width: 30px;
                 height: 30px;
                 font-size: 16px;
-                bottom: 20px; /* Increase space for mobile */
-                left: 5px;
+                bottom: 20px;  /* Adjust bottom position */
+                right: 10px;  /* Adjust right position */
             }
 
+            /* Further adjust the iframe container size for very small screens */
             #help-iframe-container {
                 width: 90%;
                 height: 70%;
             }
 
+            /* Further adjust the iframe padding for very small screens */
             #help-iframe-container iframe {
                 padding-top: 30px;
             }
+        }
+        
     </style>
 
     <div id="help-iframe-container">
