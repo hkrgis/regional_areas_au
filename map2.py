@@ -190,10 +190,137 @@ folium.GeoJson(
     }
 ).add_to(m)
 
-# Add a layer control to toggle between the base map and the state marker clusters
-folium.LayerControl().add_to(m)
 
+# Add a layer control to toggle between the base map and the state marker clusters
+folium.LayerControl(position="topright").add_to(m)
 
 # Save the map as an HTML file
 m.save("index.html")
 print("Map saved as 'index.html'.")
+
+# Add a "?" button with collapsible iframe at the bottom right
+help_button_html = """
+    <style>
+        /* Help button style */
+        #help-btn {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            width: 40px;
+            height: 40px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 9999; /* Ensure it's on top */
+        }
+        #help-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* iFrame container style */
+        #help-iframe-container {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+            height: 70%;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: white;
+            z-index: 10000; /* Ensure it's above the button */
+        }
+
+        /* Close button style */
+        #close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 30px;
+            height: 30px;
+            background-color: #ff5c5c;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        #close-btn:hover {
+            background-color: #d43f3f;
+        }
+
+        /* iFrame style */
+        #help-iframe-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding-top: 40px; /* To leave space for the close button */
+            box-sizing: border-box;
+        }
+        @media (max-width: 480px) {
+            #help-btn {
+                width: 30px;
+                height: 30px;
+                font-size: 16px;
+                bottom: 20px; /* Increase space for mobile */
+                left: 5px;
+            }
+
+            #help-iframe-container {
+                width: 90%;
+                height: 70%;
+            }
+
+            #help-iframe-container iframe {
+                padding-top: 30px;
+            }
+    </style>
+
+    <div id="help-iframe-container">
+        <button id="close-btn">&times;</button>
+        <iframe id="help-iframe" src=""></iframe>
+    </div>
+    <button id="help-btn">?</button>
+
+    <script>
+        // Toggle the iframe container and load welcome.html when the help button is clicked
+        document.getElementById("help-btn").addEventListener("click", function () {
+            var iframeContainer = document.getElementById("help-iframe-container");
+            var iframe = document.getElementById("help-iframe");
+            
+            // Check if the iframe is currently hidden or shown
+            if (iframeContainer.style.display === "none" || iframeContainer.style.display === "") {
+                // Dynamically set the iframe source to welcome.html when opening
+                iframe.src = "templates/welcome.html";
+
+                // Show the iframe container
+                iframeContainer.style.display = "block";
+            } else {
+                // Hide the iframe container
+                iframeContainer.style.display = "none";
+            }
+        });
+
+        // Hide the iframe container when the close button is clicked
+        document.getElementById("close-btn").addEventListener("click", function () {
+            var iframeContainer = document.getElementById("help-iframe-container");
+            iframeContainer.style.display = "none";
+        });
+    </script>
+"""
+
+# Append the help button and iframe container to the map HTML
+with open("index.html", "a") as f:
+    f.write(help_button_html)
+
+print("Map updated with '?' help button!")
+
+print('Added Welcome Page!')
