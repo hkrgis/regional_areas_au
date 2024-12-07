@@ -3,9 +3,11 @@ import pandas as pd
 import folium
 from folium.plugins import MarkerCluster
 from folium import IFrame
+from folium import plugins
+
 
 # Load dataset
-postcode_data = pd.read_csv("geocoded_postcodes.csv")
+postcode_data = pd.read_csv("data/geocoded_postcodes.csv")
 
 # Create a list to store markers and their search data
 marker_list = []
@@ -33,6 +35,7 @@ state_colors = {
 map_center = [-25.2744, 133.7751]  # Rough center of Australia
 m = folium.Map(location=map_center, zoom_start=4, control_scale=True, tiles=None)
 
+
 # Add Hybrid Imagery basemap
 folium.TileLayer(
     tiles="https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
@@ -56,6 +59,7 @@ folium.TileLayer(
     name="Light Map",
     subdomains='abcd'
 ).add_to(m)
+
 
 # Create a dictionary to store MarkerClusters for each state
 state_marker_clusters = {}
@@ -136,7 +140,7 @@ for state in postcode_data['state'].unique():
         </table>
         """
 
-        iframe = IFrame(popup_html, width=250, height=260)  # Adjust height as needed
+        iframe = IFrame(popup_html, width=250, height=200)  # Adjust height as needed
         
         # Add the marker to the cluster
         folium.Marker(
@@ -145,8 +149,12 @@ for state in postcode_data['state'].unique():
             popup=folium.Popup(iframe, max_width=255)
         ).add_to(marker_cluster)
 
-    # Store the marker cluster for the state
+    # Add the cluster to the LayerControl
     state_marker_clusters[state] = marker_cluster
+
+
+# Create a FeatureGroup for state polygons
+state_polygons_group = folium.FeatureGroup(name='State Borders').add_to(m)
 
 # Add state polygons with fill colors and meaningful names (optional, can be replaced by another GeoJSON)
 state_geojson = 'data/states.geojson'
@@ -159,7 +167,10 @@ folium.GeoJson(
         'weight': 1,
         'fillOpacity': 0.5
     }
-).add_to(m)
+).add_to(state_polygons_group)
+
+
+
 
 # Add a LayerControl to toggle state postcodes
 folium.LayerControl(position="topright").add_to(m)

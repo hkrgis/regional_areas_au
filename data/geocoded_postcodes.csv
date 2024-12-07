@@ -1,0 +1,832 @@
+postcode,latitude,longitude,place_name,state,category,start_postcode,end_postcode
+2259,-33.283598,151.423187,Wyong,New South Wales,Cities and Major Regional Centres,2259,2259
+2259,-33.307975,151.41344,Tuggerah,New South Wales,Cities and Major Regional Centres,2259,2259
+2259,-33.13871,151.56533,Summerland Point,New South Wales,Cities and Major Regional Centres,2259,2259
+2259,-33.125517,151.5825655,Point Wolstoncroft,New South Wales,Cities and Major Regional Centres,2259,2259
+2264,-33.109562,151.485964,Morisset,New South Wales,Cities and Major Regional Centres,2264,2308
+2267,-33.06698,151.579728,Wangi Wangi,New South Wales,Cities and Major Regional Centres,2264,2308
+2280,-33.009555,151.667653,Floraville,New South Wales,Cities and Major Regional Centres,2264,2308
+2281,-33.089592,151.637708,Swansea,New South Wales,Cities and Major Regional Centres,2264,2308
+2281,-33.0920835,151.66036050000002,Swansea Heads,New South Wales,Cities and Major Regional Centres,2264,2308
+2281,-33.114325,151.616827,Murrays Beach,New South Wales,Cities and Major Regional Centres,2264,2308
+2282,-32.974208,151.644187,Warners Bay,New South Wales,Cities and Major Regional Centres,2264,2308
+2283,-33.014654,151.598617,Toronto,New South Wales,Cities and Major Regional Centres,2264,2308
+2283,-33.043761,151.5929,Rathmines,New South Wales,Cities and Major Regional Centres,2264,2308
+2283,-33.0260975,151.593116,Kilaben Bay,New South Wales,Cities and Major Regional Centres,2264,2308
+2284,-32.981668,151.606028,Woodrising,New South Wales,Cities and Major Regional Centres,2264,2308
+2285,-32.93942,151.65919,Cardiff,New South Wales,Cities and Major Regional Centres,2264,2308
+2285,-32.935699,151.644192,Glendale,New South Wales,Cities and Major Regional Centres,2264,2308
+2287,-32.90173,151.67064,Wallsend,New South Wales,Cities and Major Regional Centres,2264,2308
+2289,-32.942876,151.712043,Kotara,New South Wales,Cities and Major Regional Centres,2264,2308
+2290,-32.962235,151.712146,Kahibah,New South Wales,Cities and Major Regional Centres,2264,2308
+2291,-32.93795,151.76021,The Junction,New South Wales,Cities and Major Regional Centres,2264,2308
+2291,-32.942348,151.751318,Merewether,New South Wales,Cities and Major Regional Centres,2264,2308
+2292,-32.918837,151.732938,Broadmeadow,New South Wales,Cities and Major Regional Centres,2264,2308
+2293,-32.921547,151.759901,Wickham,New South Wales,Cities and Major Regional Centres,2264,2308
+2296,-32.91705,151.74929,Islington,New South Wales,Cities and Major Regional Centres,2264,2308
+2298,-32.907028,151.726964,Waratah,New South Wales,Cities and Major Regional Centres,2264,2308
+2299,-32.902683,151.692338,Jesmond,New South Wales,Cities and Major Regional Centres,2264,2308
+2300,-32.92561,151.779282,Newcastle,New South Wales,Cities and Major Regional Centres,2264,2308
+2302,-32.928301,151.761725,Newcastle West,New South Wales,Cities and Major Regional Centres,2264,2308
+2303,-32.92209,151.74751,Hamilton,New South Wales,Cities and Major Regional Centres,2264,2308
+2304,-32.899117,151.738821,Mayfield,New South Wales,Cities and Major Regional Centres,2264,2308
+2304,-32.890777,151.716256,Warabrook,New South Wales,Cities and Major Regional Centres,2264,2308
+2304,-32.874965,151.710505,Sandgate,New South Wales,Cities and Major Regional Centres,2264,2308
+2307,-32.886989,151.695961,Shortland,New South Wales,Cities and Major Regional Centres,2264,2308
+2500,-34.415202,150.901363,North Wollongong,New South Wales,Cities and Major Regional Centres,2500,2526
+2500,-34.42305,150.9059,Wollongong,New South Wales,Cities and Major Regional Centres,2500,2526
+2500,-34.436852,150.886245,Coniston,New South Wales,Cities and Major Regional Centres,2500,2526
+2502,-34.492303,150.875995,Warrawong,New South Wales,Cities and Major Regional Centres,2500,2526
+2506,-34.482508,150.847653,Berkeley,New South Wales,Cities and Major Regional Centres,2500,2526
+2508,-34.214553,151.00622,Otford,New South Wales,Cities and Major Regional Centres,2500,2526
+2508,-34.296679,150.925053,Maddens Plains,New South Wales,Cities and Major Regional Centres,2500,2526
+2508,-34.1904,150.98164,Helensburgh,New South Wales,Cities and Major Regional Centres,2500,2526
+2515,-34.3172,150.91716,Thirroul,New South Wales,Cities and Major Regional Centres,2500,2526
+2516,-34.337487,150.910989,Bulli,New South Wales,Cities and Major Regional Centres,2500,2526
+2518,-34.371559,150.897336,Corrimal,New South Wales,Cities and Major Regional Centres,2500,2526
+2519,-34.393393,150.893027,Fairy Meadow,New South Wales,Cities and Major Regional Centres,2500,2526
+2519,-34.388638,150.877885,Balgownie,New South Wales,Cities and Major Regional Centres,2500,2526
+2525,-34.435885,150.863378,Figtree,New South Wales,Cities and Major Regional Centres,2500,2526
+2526,-34.453594,150.844584,Unanderra,New South Wales,Cities and Major Regional Centres,2500,2526
+2529,-34.57837,150.86911,Shellharbour,New South Wales,Cities and Major Regional Centres,2528,2535
+2529,-34.563138,150.839315,Shellharbour City Centre,New South Wales,Cities and Major Regional Centres,2528,2535
+2530,-34.535582,150.786586,Yallah,New South Wales,Cities and Major Regional Centres,2528,2535
+2530,-34.494742,150.794817,Dapto,New South Wales,Cities and Major Regional Centres,2528,2535
+2533,-34.671214,150.855322,Kiama,New South Wales,Cities and Major Regional Centres,2528,2535
+2535,-34.77509,150.6957,Berry,New South Wales,Cities and Major Regional Centres,2528,2535
+2574,-34.28912,150.58057,Bargo,New South Wales,Cities and Major Regional Centres,2574,2574
+2250,-33.418293500000004,151.2775705,Somersby,New South Wales,Regional Centres and Other Regional Areas,2250,2258
+2250,-33.427998,151.295296,Kariong,New South Wales,Regional Centres and Other Regional Areas,2250,2258
+2250,-33.42418,151.223462,Calga,New South Wales,Regional Centres and Other Regional Areas,2250,2258
+2250,-33.439882,151.383917,Erina,New South Wales,Regional Centres and Other Regional Areas,2250,2258
+2251,-33.481759,151.3641,Davistown,New South Wales,Regional Centres and Other Regional Areas,2250,2258
+2251,-33.465137,151.433245,Avoca Beach,New South Wales,Regional Centres and Other Regional Areas,2250,2258
+2251,-33.467522,151.382236,Kincumber,New South Wales,Regional Centres and Other Regional Areas,2250,2258
+2256,-33.54546,151.30736,Pearl Beach,New South Wales,Regional Centres and Other Regional Areas,2250,2258
+2256,-33.483826,151.32472,Woy Woy,New South Wales,Regional Centres and Other Regional Areas,2250,2258
+2256,-33.484007500000004,151.313453,Woy Woy Bay,New South Wales,Regional Centres and Other Regional Areas,2250,2258
+2257,-33.508784,151.369753,Empire Bay,New South Wales,Regional Centres and Other Regional Areas,2250,2258
+2257,-33.521398,151.318279,Umina Beach,New South Wales,Regional Centres and Other Regional Areas,2250,2258
+2257,-33.513964,151.335694,Ettalong Beach,New South Wales,Regional Centres and Other Regional Areas,2250,2258
+2260,-33.448511,151.445047,Terrigal,New South Wales,Regional Centres and Other Regional Areas,2260,2263
+2261,-33.339899,151.498802,The Entrance,New South Wales,Regional Centres and Other Regional Areas,2260,2263
+2261,-33.374575,151.473444,Bateau Bay,New South Wales,Regional Centres and Other Regional Areas,2260,2263
+2261,-33.356832,151.48443500000002,Long Jetty,New South Wales,Regional Centres and Other Regional Areas,2260,2263
+2261,-33.35522325,151.501158,Blue Bay,New South Wales,Regional Centres and Other Regional Areas,2260,2263
+2262,-33.197425,151.525879,Doyalson,New South Wales,Regional Centres and Other Regional Areas,2260,2263
+2263,-33.24205,151.503325,Lake Haven,New South Wales,Regional Centres and Other Regional Areas,2260,2263
+2315,-32.713848,152.157029,Nelson Bay,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2315,-32.74785,152.16920349999998,Fingal Bay,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2316,-32.780863,152.0849505,Anna Bay,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2317,-32.711056,152.072345,Soldiers Point,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2320,-32.780519,151.315192,Pokolbin,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2320,-32.721622,151.319385,Rothbury,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2322,-32.811735,151.639789,Beresfield,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2323,-32.751598,151.590202,East Maitland,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2323,-32.983506500000004,151.4854775,Freemans Waterhole,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2324,-32.782528,151.738931,Heatherbrae,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2324,-32.668217,152.163142,Tea Gardens,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2324,-32.763081,151.741877,Raymond Terrace,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2325,-32.836165,151.346398,Cessnock,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2325,-32.756857,151.370525,Lovedale,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2326,-32.814262,151.458929,Weston,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2327,-32.818152,151.481874,Kurri Kurri,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2330,-32.562614,151.170141,Singleton,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2338,-31.733224,150.7832065,Ardglen,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2340,-31.092775,150.933286,Tamworth,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2340,-31.134859,150.921361,Hillvue,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2341,-31.34905,150.646873,Werris Creek,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2350,-30.51451,151.668765,Armidale,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2357,-31.272907,149.276891,Coonabarabran,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2358,-30.640889,151.501233,Uralla,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2365,-29.92621,151.723781,Glencoe,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2365,-30.13333,151.68333,Llangothlin,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2365,-30.22039,151.67124,Guyra,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2370,-29.741584,151.752663,Glen Innes,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2390,-30.332243,149.786507,Narrabri,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2400,-29.46352,149.841474,Moree,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2405,-29.06667,149.63333,Garah,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2420,-32.4,151.76667,Alison,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2423,-32.41221,152.207621,Bulahdelah,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2425,-32.402195,151.966802,Stroud,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2428,-32.18033,152.50867,Forster,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2428,-32.3313575,152.537307,Elizabeth Beach,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2429,-31.86667,152.36667,Wingham,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2430,-31.943683,152.47118,Glenthorne,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2430,-31.96532,152.58653,Old Bar,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2431,-30.889211,153.047542,South West Rocks,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2440,-31.186794,152.979512,Crescent Head,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2440,-31.08333,152.85,East Kempsey,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2440,-31.079665,152.83086,West Kempsey,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2443,-31.638534,152.819797,North Haven,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2444,-31.426313,152.896042,Port Macquarie,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2445,-31.552221,152.854356,Lake Cathie,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2446,-31.457191,152.732139,Wauchope,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2447,-30.706758,152.921278,Macksville,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2450,-30.304971,153.132503,Coffs Harbour,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2452,-30.369353,153.10002,Sawtell,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2452,-30.354428,153.091721,Toormina,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2454,-30.451884,152.897198,Bellingen,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2456,-30.031774249999998,153.2005035,Corindi Beach,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2460,-29.502753,153.100376,Lawrence,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2460,-29.691862,152.933168,Grafton,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2463,-29.499411,153.2435,Gulmarrad,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2464,-29.478956,153.359738,Angourie,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2465,-29.427276,153.238963,Harwood,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2472,-29.153277,153.298317,New Italy,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2478,-28.87271,153.56244,Ballina,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2478,-28.794905,153.593872,Lennox Head,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2478,-28.948107999999998,153.5119205,Patchs Beach,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2479,-28.682798,153.53119,Bangalow,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2480,-28.81963,153.28518,East Lismore,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2480,-28.81122,153.27513,Lismore,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2481,-28.635881,153.553675,Ewingsdale,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2481,-28.642591,153.622396,Byron Bay,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2481,-28.678877,153.610738,Suffolk Park,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2482,-28.553392,153.499572,Mullumbimby,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2483,-28.539776,153.550646,Brunswick Heads,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2486,-28.236666,153.496521,Terranora,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2486,-28.215096,153.54077,Banora Point,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2486,-28.199988,153.544879,Tweed Heads South,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2487,-28.276801,153.577182,Kingscliff,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2488,-28.330772,153.56918,Cabarita Beach,New South Wales,Regional Centres and Other Regional Areas,2311,2490
+2527,-34.571,150.77604,Albion Park,New South Wales,Regional Centres and Other Regional Areas,2527,2527
+2536,-35.707081,150.178605,Batemans Bay,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2536,-35.699179,150.23293999999999,Long Beach,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2536,-35.751269,150.2116025,Denhams Beach,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2537,-35.9159655,150.1541365,Moruya Heads,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2538,-35.32053,150.43302,Milton,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2540,-35.038739,150.669778,Huskisson,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2540,-35.006129,150.649263,Woollamia,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2540,-35.156538,150.601735,Sussex Inlet,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2540,-35.0147,150.823443,Currarong,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2540,-34.898542,150.677299,Pyree,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2541,-34.880621,150.597222,Nowra,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2546,-36.211272,150.133913,Narooma,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2546,-36.197364,150.130571,Kianga,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2546,-36.313,150.07451,Central Tilba,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2548,-36.872089,149.929011,Tura Beach,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2550,-36.727795,149.98758,Tathra,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2551,-37.066203,149.907399,Eden,New South Wales,Regional Centres and Other Regional Areas,2536,2551
+2575,-34.45061,150.449285,Mittagong,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2577,-34.73605,150.5324,Kangaroo Valley,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2577,-34.717515,150.525803,Barrengarry,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2577,-34.490454,150.33349,Berrima,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2578,-34.656554,150.299425,Bundanoon,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2579,-34.7,150.16667,Wingello,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2580,-34.754943,149.71788,Goulburn,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2582,-34.843025,148.912035,Yass,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2583,-34.45778,149.46933,Crookwell,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2590,-34.638679,148.01674,Cootamundra,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2590,-34.815138,147.739688,Illabo,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2590,-34.7610235,147.855806,Bethungra,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2600,-35.294513,149.12787,Parkes,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2601,-35.285122,149.122547,City,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2601,-35.279039499999996,149.109303,Canberra Central,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2602,-35.250893,149.137883,Dickson,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2603,-35.328217,149.142752,Griffith,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2604,-35.310556,149.145385,Kingston,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2606,-35.34882,149.086413,Phillip,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2607,-35.364626,149.094184,Mawson,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2612,-35.2808345,149.14869199999998,Campbell,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2612,-35.273198,149.13319,Braddon,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2612,-35.282139,149.146738,Reid,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2617,-35.239468,149.063157,Belconnen,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2619,-35.385713,149.200596,Jerrabomberra,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2620,-35.026519,149.265464,Gundaroo,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2620,-35.349887,149.232283,Queanbeyan,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2620,-35.649222,148.832157,Rendezvous Creek,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2620,-35.341362,149.244498,Queanbeyan East,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2620,-35.371085,149.232086,Karabar,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2621,-35.254941,149.444339,Bungendore,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2622,-35.444114,149.799513,Braidwood,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2624,-36.404521,148.409986,Perisher Valley,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2625,-36.493761,148.287709,Thredbo,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2627,-36.444784,148.450174,Crackenback,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2629,-35.75032,148.558106,Gooandra,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2629,-35.996347,148.77446650000002,Adaminaby,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2631,-36.516543,149.28205,Nimmitabel,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2640,-36.068503,146.947514,East Albury,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2640,-36.07791,146.91813,Albury,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2640,-36.088334,146.909076,South Albury,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2641,-36.049224,146.934928,Lavington,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2650,-35.10669,147.36525,Wagga Wagga,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2650,-35.133217,147.357913,Mount Austin,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2652,-34.825331,147.360385,Marrar,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2658,-35.515716999999995,147.035554,Henty,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2663,-34.87123,147.58432,Junee,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2665,-34.357697,146.901608,Ardlethan,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2666,-34.461851,147.76008,Springdale,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2675,-33.48333,145.53333,Hillston,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2700,-34.74521,146.55182,Narrandera,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2710,-35.535504,144.967226,Deniliquin,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2711,-34.509439,144.843664,Hay,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2720,-35.301366,148.223142,Tumut,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2725,-34.500394,147.880025,Stockinbingal,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2729,-35.3091,148.06708,Adelong,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2737,-34.57626,142.74535,Euston,New South Wales,Regional Centres and Other Regional Areas,2575,2739
+2753,-33.599965,150.75285,Richmond,New South Wales,Regional Centres and Other Regional Areas,2753,2754
+2756,-33.567209,150.840135,Wilberforce,New South Wales,Regional Centres and Other Regional Areas,2756,2758
+2756,-33.622518,150.835033,Mulgrave,New South Wales,Regional Centres and Other Regional Areas,2756,2758
+2756,-33.617789,150.806948,South Windsor,New South Wales,Regional Centres and Other Regional Areas,2756,2758
+2756,-33.6076,150.81856,Windsor,New South Wales,Regional Centres and Other Regional Areas,2756,2758
+2756,-33.6383395,150.7993255,Bligh Park,New South Wales,Regional Centres and Other Regional Areas,2756,2758
+2757,-33.55308,150.69574,Kurmond,New South Wales,Regional Centres and Other Regional Areas,2756,2758
+2773,-33.767373,150.621746,Glenbrook,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2774,-33.74469,150.61019,Blaxland,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2775,-33.383327,150.9852415,Wisemans Ferry,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2777,-33.69933,150.5666,Springwood,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2777,-33.671247,150.609126,Winmalee,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2780,-33.72203,150.349658,Leura,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2780,-33.72149,150.31975,Katoomba,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2782,-33.710855,150.366318,Wentworth Falls,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2783,-33.719833,150.430072,Lawson,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2785,-33.636203,150.287211,Blackheath,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2790,-33.561729,150.198505,Hartley,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2790,-33.820385,150.021443,Jenolan,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2790,-33.481009,150.157098,Lithgow,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2795,-33.416925,149.57971,Bathurst,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2798,-33.446477,149.184118,Millthorpe,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2800,-33.299661,149.019619,Nashdale,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2800,-33.285936,149.107253,Orange,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2800,-33.310847,149.019531,Canobolas,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2830,-32.253918,148.603479,Dubbo,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2847,-33.352905,149.979512,Portland,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2850,-32.533792,149.661807,Budgee Budgee,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2850,-32.53598,149.58379,Eurunderee,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2850,-32.59112,149.58702,Mudgee,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2850,-32.78333,149.45,Hargraves,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2879,-32.392827,142.418733,Menindee,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+2880,-31.958261,141.465476,Broken Hill,New South Wales,Regional Centres and Other Regional Areas,2773,2898
+3212,-38.022893,144.420739,Lara,Victoria,Cities and Major Regional Centres,3211,3232
+3214,-38.096642,144.360314,Norlane,Victoria,Cities and Major Regional Centres,3211,3232
+3215,-38.12079,144.32848,Hamlyn Heights,Victoria,Cities and Major Regional Centres,3211,3232
+3215,-38.11119,144.34304,Bell Park,Victoria,Cities and Major Regional Centres,3211,3232
+3215,-38.10912,144.353187,North Geelong,Victoria,Cities and Major Regional Centres,3211,3232
+3216,-38.202868,144.341205,Grovedale,Victoria,Cities and Major Regional Centres,3211,3232
+3216,-38.175626,144.342413,Belmont,Victoria,Cities and Major Regional Centres,3211,3232
+3216,-38.172391,144.324002,Highton,Victoria,Cities and Major Regional Centres,3211,3232
+3218,-38.13589,144.34946,Geelong West,Victoria,Cities and Major Regional Centres,3211,3232
+3220,-38.144493,144.363089,Geelong,Victoria,Cities and Major Regional Centres,3211,3232
+3222,-38.174559,144.568504,Drysdale,Victoria,Cities and Major Regional Centres,3211,3232
+3222,-38.232896,144.538164,Wallington,Victoria,Cities and Major Regional Centres,3211,3232
+3223,-38.115271,144.65312,Portarlington,Victoria,Cities and Major Regional Centres,3211,3232
+3226,-38.26773,144.52443,Ocean Grove,Victoria,Cities and Major Regional Centres,3211,3232
+3227,-38.284242,144.495667,Barwon Heads,Victoria,Cities and Major Regional Centres,3211,3232
+3228,-38.32651,144.31599749999998,Torquay,Victoria,Cities and Major Regional Centres,3211,3232
+3228,-38.3676775,144.2837735,Bells Beach,Victoria,Cities and Major Regional Centres,3211,3232
+3232,-38.539637,143.97654,Lorne,Victoria,Cities and Major Regional Centres,3211,3232
+3240,-38.21334,144.17996,Mount Moriac,Victoria,Cities and Major Regional Centres,3240,3240
+3340,-37.675545,144.439668,Bacchus Marsh,Victoria,Cities and Major Regional Centres,3340,3340
+3342,-37.60037,144.22647,Ballan,Victoria,Cities and Major Regional Centres,3342,3342
+3099,-37.63322,145.20523,Hurstbridge,Victoria,Regional Centres and Other Regional Areas,3097,3099
+3233,-38.756198,143.669239,Apollo Bay,Victoria,Regional Centres and Other Regional Areas,3233,3234
+3233,-38.716344,143.710521,Skenes Creek,Victoria,Regional Centres and Other Regional Areas,3233,3234
+3233,-38.8555215,143.51207575,Cape Otway,Victoria,Regional Centres and Other Regional Areas,3233,3234
+3236,-38.51739,143.71452,Forrest,Victoria,Regional Centres and Other Regional Areas,3236,3239
+3237,-38.630642,143.527293,Ferguson,Victoria,Regional Centres and Other Regional Areas,3236,3239
+3239,-38.52465,143.539402,Gellibrand,Victoria,Regional Centres and Other Regional Areas,3236,3239
+3241,-38.368831,144.084771,Wensleydale,Victoria,Regional Centres and Other Regional Areas,3241,3325
+3242,-38.346905,143.807135,Birregurra,Victoria,Regional Centres and Other Regional Areas,3241,3325
+3250,-38.333126,143.587191,Colac,Victoria,Regional Centres and Other Regional Areas,3241,3325
+3264,-38.240809,142.915546,Terang,Victoria,Regional Centres and Other Regional Areas,3241,3325
+3265,-38.33286,142.73001,Panmure,Victoria,Regional Centres and Other Regional Areas,3241,3325
+3268,-38.48492,142.98131,Timboon,Victoria,Regional Centres and Other Regional Areas,3241,3325
+3269,-38.619781,142.994643,Port Campbell,Victoria,Regional Centres and Other Regional Areas,3241,3325
+3272,-38.08333,142.81667,Mortlake,Victoria,Regional Centres and Other Regional Areas,3241,3325
+3280,-38.385246,142.48235,Warrnambool,Victoria,Regional Centres and Other Regional Areas,3241,3325
+3284,-38.38296,142.23403,Port Fairy,Victoria,Regional Centres and Other Regional Areas,3241,3325
+3294,-37.649372,142.339837,Dunkeld,Victoria,Regional Centres and Other Regional Areas,3241,3325
+3321,-38.100809,144.05112150000002,Inverleigh,Victoria,Regional Centres and Other Regional Areas,3241,3325
+3350,-37.562913,143.86039,Ballarat Central,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3350,-37.553278,143.842827,Lake Wendouree,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3350,-37.576347,143.868542,Golden Point,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3350,-37.56038,143.867014,Ballarat East,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3355,-37.539885,143.829629,Wendouree,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3356,-37.582292,143.840244,Sebastopol,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3357,-37.650724,143.885288,Buninyong,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3374,-37.150682,142.8516785,Great Western,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3377,-37.283561,142.928013,Ararat,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3381,-37.142063,142.519185,Halls Gap,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3388,-36.62867,142.63155,Rupanyup,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3393,-36.25,142.41667,Warracknabeal,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3400,-36.713499,142.199709,Horsham,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3401,-36.741647,142.216514,Riverside,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3401,-36.584148,142.117751,Pimpinio,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3414,-36.4041395,141.9605865,Dimboola,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3418,-36.3325435,141.6514785,Nhill,Victoria,Regional Centres and Other Regional Areas,3345,3424
+3430,-37.483179,144.746779,Clarkefield,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3431,-37.46582875,144.68137124999998,Riddells Creek,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3437,-37.486957,144.588927,Gisborne,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3441,-37.407566,144.578688,Mount Macedon,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3442,-37.356667,144.52843,Woodend,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3444,-37.243826,144.447726,Kyneton,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3444,-37.021195,144.531937,Redesdale,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3450,-37.065006,144.218001,Castlemaine,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3451,-37.095278,144.202541,Campbells Creek,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3458,-37.475082,144.303922,Blackwood,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3460,-37.349459,144.14068,Daylesford,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3467,-37.08333,143.48333,Avoca,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3490,-35.06667,142.31667,Ouyen,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3500,-34.187537,142.160358,Mildura,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3507,-35.1362065,142.024273,Walpeup,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3517,-36.576344,143.8689225,Inglewood,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3522,-37.047106,144.791971,Tooborac,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3525,-36.358797,143.410963,Yeungroon East,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3549,-34.603077,142.77975,Robinvale,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3550,-36.757285,144.275506,Bendigo,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3550,-36.770689,144.278538,Quarry Hill,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3551,-36.750099,144.19896,Maiden Gully,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3555,-36.796279,144.244566,Kangaroo Flat,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3556,-36.7314,144.25734,California Gully,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3556,-36.718832,144.253106,Eaglehawk,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3564,-36.120571,144.746725,Echuca,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3585,-35.33924,143.55934,Swan Hill,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3599,-34.716236,143.150375,Boundary Bend,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3608,-36.826221,145.086806,Nagambie,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3610,-36.6166325,145.217691,Murchison,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3629,-36.39422,145.35963,Mooroopna,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3630,-36.37892,145.40055,Shepparton,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3658,-37.20242,145.05002,Broadford,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3659,-37.093134,145.102781,Tallarook,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3660,-37.02074,145.13042,Seymour,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3666,-36.75,145.56667,Euroa,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3672,-36.545898,145.981628,Benalla,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3677,-36.352692,146.328011,Wangaratta,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3678,-36.453976,146.429771,Milawa,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3683,-36.151212,146.608425,Chiltern,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3685,-36.053889,146.459537,Rutherglen,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3690,-36.122794,146.888202,Wodonga,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3698,-36.73769,147.16059,Tawonga South,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3699,-36.844665,147.335565,Falls Creek,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3701,-36.791723,147.689535,Dartmouth,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3711,-37.420348,145.708966,Buxton,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3714,-37.191741,145.710028,Alexandra,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3717,-37.211052,145.425451,Yea,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3717,-37.31992,145.28775,Flowerdale,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3722,-37.051737,146.088144,Mansfield,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3723,-37.146375,146.449051,Mount Buller,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3723,-37.108914,146.338981,Merrijig,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3723,-37.572705,146.393873,Woods Point,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3737,-36.56667,146.71667,Myrtleford,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3739,-36.66613,146.859452,Eurobin,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3740,-36.700695,146.91231,Porepunkah,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3741,-36.72706,146.96246,Bright,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3741,-36.959692,147.148869,Hotham Heights,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3747,-36.35918,146.6878,Beechworth,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3756,-37.398862,144.972025,Wallan,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3759,-37.65,145.23333,Panton Hill,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3763,-37.530347,145.340205,Kinglake,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3765,-37.810519,145.343565,Montrose,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3766,-37.817412,145.380664,Kalorama,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3767,-37.847151,145.360425,Mount Dandenong,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3770,-37.718626,145.463065,Gruyere,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3770,-37.690985,145.406795,Coldstream,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3775,-37.634424,145.393045,Yarra Glen,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3777,-37.654247,145.515459,Healesville,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3779,-37.510306,145.745617,Marysville,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3782,-37.931222,145.442874,Emerald,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3782,-37.882232,145.454547,Macclesfield,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3783,-37.95,145.55,Gembrook,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3787,-37.863459,145.353339,Sassafras,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3788,-37.855565,145.365746,Olinda,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3793,-37.873453,145.406195,Monbulk,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3797,-37.78167,145.609286,Yarra Junction,Victoria,Regional Centres and Other Regional Areas,3430,3799
+3809,-38.053535,145.40271,Officer,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3810,-38.07841,145.48226,Pakenham,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3814,-38.091872,145.6762,Garfield,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3814,-38.06667,145.68333,Garfield North,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3815,-38.1,145.71667,Bunyip,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3818,-38.13708,145.85805,Drouin,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3820,-38.161491,145.93151,Warragul,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3823,-38.203902,146.063613,Yarragon,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3825,-37.696172,146.274068,Jericho,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3825,-38.175027,146.263143,Moe,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3833,-37.840284,146.26429,Baw Baw Village,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3840,-38.23696,146.39522,Morwell,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3840,-38.185633,146.446474,Maryvale,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3842,-38.314891,146.419962,Churchill,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3844,-38.19842,146.53796,Traralgon,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3847,-38.151579,146.788681,Rosedale,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3850,-38.109167,147.06533,Sale,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3858,-37.586107,146.552576,Licola,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3858,-37.978027,146.784473,Heyfield,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3871,-38.402412,146.155983,Mirboo North,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3875,-37.826667,147.626322,Bairnsdale,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3890,-37.5661795,149.151128,Cann River,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3895,-37.374686,147.836624,Ensay,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3898,-37.022849,147.239141,Dinner Plain,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3898,-36.826089,147.522119,Glen Valley,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3898,-36.838081,147.496052,Glen Wills,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3898,-36.816238,147.327134,Nelse,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3898,-37.09924,147.593716,Omeo,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3909,-37.881934,147.981843,Lakes Entrance,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3909,-37.857286,148.085856,Lake Tyers Beach,Victoria,Regional Centres and Other Regional Areas,3809,3909
+3912,-38.202182,145.233055,Pearcedale,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3912,-38.224936,145.174525375,Somerville,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3913,-38.259511,145.186945,Tyabb,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3916,-38.390778,145.087208,Merricks,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3922,-38.4862,145.261532,Cowes,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3923,-38.463628,145.302908,Rhyll,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3925,-38.522114,145.31407,Newhaven,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3926,-38.344588,145.097116,Merricks North,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3926,-38.399378,145.1049185,Merricks Beach,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3929,-38.474331,145.019086,Flinders,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3930,-38.18339,145.09026,Mount Eliza,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3931,-38.23629,145.06179,Mornington,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3934,-38.266977,145.013738,Mount Martha,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3936,-38.35341,144.95156,Arthurs Seat,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3936,-38.3438735,144.943928,Dromana,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3936,-38.32204,144.987166,Safety Beach,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3937,-38.362566,145.050824,Red Hill South,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3937,-38.3733,145.022318,Red Hill,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3939,-38.405864,144.85273,Fingal,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3941,-38.37088,144.82499,Rye,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3943,-38.34591,144.72802,Sorrento,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3945,-38.368684,145.709369,Loch,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3950,-38.43231,145.82444,Korumburra,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3953,-38.47675,145.94617,Leongatha,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3959,-38.83333,146.13333,Sandy Point,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3960,-38.65209,146.20015,Foster,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3965,-38.7,146.46667,Port Welshpool,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3971,-38.56255,146.67584,Yarram,Victoria,Regional Centres and Other Regional Areas,3912,3971
+3978,-38.110238,145.393729,Clyde North,Victoria,Regional Centres and Other Regional Areas,3978,3996
+3980,-38.21396,145.38089,Tooradin,Victoria,Regional Centres and Other Regional Areas,3978,3996
+3981,-38.198072,145.487097,Koo Wee Rup,Victoria,Regional Centres and Other Regional Areas,3978,3996
+4019,-27.24471,153.10725,Margate,Queensland,Cities and Major Regional Centres,4019,4022
+4019,-27.26134,153.10391,Woody Point,Queensland,Cities and Major Regional Centres,4019,4022
+4019,-27.26018,153.079644,Clontarf,Queensland,Cities and Major Regional Centres,4019,4022
+4020,-27.225285,153.114326,Redcliffe,Queensland,Cities and Major Regional Centres,4019,4022
+4020,-27.207108,153.096257,Newport,Queensland,Cities and Major Regional Centres,4019,4022
+4021,-27.225612,153.087509,Kippa-Ring,Queensland,Cities and Major Regional Centres,4019,4022
+4022,-27.207503,153.072381,Rothwell,Queensland,Cities and Major Regional Centres,4019,4022
+4025,-27.178866,153.372786,Moreton Island,Queensland,Cities and Major Regional Centres,4025,4025
+4074,-27.548659,152.939849,Mount Ommaney,Queensland,Cities and Major Regional Centres,4074,4074
+4074,-27.56391,152.93362,Sumner,Queensland,Cities and Major Regional Centres,4074,4074
+4076,-27.558963,152.951103,Darra,Queensland,Cities and Major Regional Centres,4076,4078
+4077,-27.597541,152.980811,Inala,Queensland,Cities and Major Regional Centres,4076,4078
+4078,-27.624485,152.968524,Forest Lake,Queensland,Cities and Major Regional Centres,4076,4078
+4207,-27.762438,153.107928,Logan Village,Queensland,Cities and Major Regional Centres,4207,4275
+4207,-27.717611,153.202144,Beenleigh,Queensland,Cities and Major Regional Centres,4207,4275
+4208,-27.784983,153.250899,Ormeau,Queensland,Cities and Major Regional Centres,4207,4275
+4209,-27.863845,153.31815,Coomera,Queensland,Cities and Major Regional Centres,4207,4275
+4210,-27.912002,153.315771,Oxenford,Queensland,Cities and Major Regional Centres,4207,4275
+4212,-27.867834,153.349617,Hope Island,Queensland,Cities and Major Regional Centres,4207,4275
+4212,-27.925066,153.337453,Helensvale,Queensland,Cities and Major Regional Centres,4207,4275
+4213,-28.079611,153.365123,Mudgeeraba,Queensland,Cities and Major Regional Centres,4207,4275
+4215,-27.968934,153.415704,Southport,Queensland,Cities and Major Regional Centres,4207,4275
+4215,-27.942209,153.408778,Labrador,Queensland,Cities and Major Regional Centres,4207,4275
+4216,-27.932086,153.388195,Biggera Waters,Queensland,Cities and Major Regional Centres,4207,4275
+4217,-28.002114,153.430391,Surfers Paradise,Queensland,Cities and Major Regional Centres,4207,4275
+4217,-27.979972,153.428879,Main Beach,Queensland,Cities and Major Regional Centres,4207,4275
+4218,-28.046027,153.434893,Mermaid Beach,Queensland,Cities and Major Regional Centres,4207,4275
+4218,-28.03957,153.4314,Mermaid Waters,Queensland,Cities and Major Regional Centres,4207,4275
+4218,-28.029514,153.432532,Broadbeach,Queensland,Cities and Major Regional Centres,4207,4275
+4220,-28.089755,153.454207,Burleigh Heads,Queensland,Cities and Major Regional Centres,4207,4275
+4220,-28.074649,153.422383,Burleigh Waters,Queensland,Cities and Major Regional Centres,4207,4275
+4221,-28.133885499999998,153.467906,Elanora,Queensland,Cities and Major Regional Centres,4207,4275
+4225,-28.164829,153.550447,Coolangatta,Queensland,Cities and Major Regional Centres,4207,4275
+4226,-28.05728,153.394333,Robina,Queensland,Cities and Major Regional Centres,4207,4275
+4227,-28.078163,153.417551,Varsity Lakes,Queensland,Cities and Major Regional Centres,4207,4275
+4272,-27.92867,153.18504,Tamborine Mountain,Queensland,Cities and Major Regional Centres,4207,4275
+4300,-27.663966,152.920399,Springfield Lakes,Queensland,Cities and Major Regional Centres,4300,4301
+4300,-27.673154,152.901584,Brookwater,Queensland,Cities and Major Regional Centres,4300,4301
+4300,-27.6777,152.901239,Springfield Central,Queensland,Cities and Major Regional Centres,4300,4301
+4300,-27.60998,152.89837,Goodna,Queensland,Cities and Major Regional Centres,4300,4301
+4301,-27.605442,152.868874,Redbank,Queensland,Cities and Major Regional Centres,4300,4301
+4304,-27.61324,152.79133,Booval,Queensland,Cities and Major Regional Centres,4303,4305
+4305,-27.61479,152.75942,Ipswich,Queensland,Cities and Major Regional Centres,4303,4305
+4305,-27.605838,152.758072,North Ipswich,Queensland,Cities and Major Regional Centres,4303,4305
+4500,-27.306282,152.989387,Strathpine,Queensland,Cities and Major Regional Centres,4500,4506
+4500,-27.316838,152.978185,Brendale,Queensland,Cities and Major Regional Centres,4500,4506
+4500,-27.293331,152.952488,Warner,Queensland,Cities and Major Regional Centres,4500,4506
+4503,-27.25228,152.99397,Kallangur,Queensland,Cities and Major Regional Centres,4500,4506
+4504,-27.193995,152.955711,Narangba,Queensland,Cities and Major Regional Centres,4500,4506
+4505,-27.156039,152.976012,Burpengary,Queensland,Cities and Major Regional Centres,4500,4506
+4506,-27.103485,152.949574,Morayfield,Queensland,Cities and Major Regional Centres,4500,4506
+4509,-27.240643,153.016994,North Lakes,Queensland,Cities and Major Regional Centres,4508,4512
+4510,-27.084712,152.949425,Caboolture,Queensland,Cities and Major Regional Centres,4508,4512
+4518,-26.926886,152.902656,Glass House Mountains,Queensland,Cities and Major Regional Centres,4517,4519
+4519,-26.836678,152.9594995,Beerwah,Queensland,Cities and Major Regional Centres,4517,4519
+4521,-27.196444,152.824203,Dayboro,Queensland,Cities and Major Regional Centres,4521,4521
+4550,-26.813849,152.97323,Landsborough,Queensland,Cities and Major Regional Centres,4550,4551
+4551,-26.806604,153.131824,Caloundra,Queensland,Cities and Major Regional Centres,4550,4551
+4551,-26.829647,153.120715,Golden Beach,Queensland,Cities and Major Regional Centres,4550,4551
+4551,-26.76667,153.11667,Currimundi,Queensland,Cities and Major Regional Centres,4550,4551
+4553,-26.750375,153.04672,Palmview,Queensland,Cities and Major Regional Centres,4553,4562
+4555,-26.686749,152.957497,Palmwoods,Queensland,Cities and Major Regional Centres,4553,4562
+4556,-26.673136,153.090997,Buderim,Queensland,Cities and Major Regional Centres,4553,4562
+4556,-26.718106,153.05011,Sippy Downs,Queensland,Cities and Major Regional Centres,4553,4562
+4557,-26.678256,153.117852,Mooloolaba,Queensland,Cities and Major Regional Centres,4553,4562
+4558,-26.654508,153.088816,Maroochydore,Queensland,Cities and Major Regional Centres,4553,4562
+4559,-26.660709,152.964872,Woombye,Queensland,Cities and Major Regional Centres,4553,4562
+4560,-26.687831,152.892289,Montville,Queensland,Cities and Major Regional Centres,4553,4562
+4560,-26.651322,152.877561,Flaxton,Queensland,Cities and Major Regional Centres,4553,4562
+4560,-26.632669,152.952134,Burnside,Queensland,Cities and Major Regional Centres,4553,4562
+4560,-26.630038,152.859206,Mapleton,Queensland,Cities and Major Regional Centres,4553,4562
+4564,-26.62944,153.086528,Twin Waters,Queensland,Cities and Major Regional Centres,4564,4569
+4564,-26.583001,153.097143,Marcoola,Queensland,Cities and Major Regional Centres,4564,4569
+4565,-26.39397,153.041402,Tewantin,Queensland,Cities and Major Regional Centres,4564,4569
+4566,-26.396788,153.066308,Noosaville,Queensland,Cities and Major Regional Centres,4564,4569
+4567,-26.390951,153.07852,Noosa Heads,Queensland,Cities and Major Regional Centres,4564,4569
+4567,-26.405554,153.112142,Sunshine Beach,Queensland,Cities and Major Regional Centres,4564,4569
+4573,-26.53139,153.092478,Coolum Beach,Queensland,Cities and Major Regional Centres,4571,4575
+4573,-26.481263,153.096275,Peregian Beach,Queensland,Cities and Major Regional Centres,4571,4575
+4575,-26.710844,153.12368,Parrearra,Queensland,Cities and Major Regional Centres,4571,4575
+4575,-26.701591,153.131302,Buddina,Queensland,Cities and Major Regional Centres,4571,4575
+4575,-26.759421,153.124595,Wurtulla,Queensland,Cities and Major Regional Centres,4571,4575
+4124,-27.72775,152.973691,Greenbank,Queensland,Regional Centres and Other Regional Areas,4124,4124
+4133,-27.692458,153.135896,Waterford West,Queensland,Regional Centres and Other Regional Areas,4133,4133
+4183,-27.432259,153.542944,Point Lookout,Queensland,Regional Centres and Other Regional Areas,4183,4184
+4183,-27.493056,153.40396,Dunwich,Queensland,Regional Centres and Other Regional Areas,4183,4184
+4183,-27.399146000000002,153.438662,Amity,Queensland,Regional Centres and Other Regional Areas,4183,4184
+4184,-27.631181,153.365528,Macleay Island,Queensland,Regional Centres and Other Regional Areas,4183,4184
+4306,-27.540506,152.805394,Mount Crosby,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4310,-27.998054,152.681482,Boonah,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4313,-27.088063,152.37525,Toogoolawah,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4341,-27.63006,152.39363,Laidley,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4341,-27.529384,152.459549,Kensington Grove,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4342,-27.590216,152.356764,Forest Hill,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4343,-27.553639,152.335732,Lawes,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4350,-27.579128,151.987814,Rangeville,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4350,-27.55863,151.9474,Toowoomba City,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4350,-27.58055,151.96402,Centenary Heights,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4350,-27.54263,151.924503,Wilsonton,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4350,-27.591162,151.947758,Kearneys Spring,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4350,-27.57049,151.94574,South Toowoomba,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4365,-28.012418,151.578296,Leyburn,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4380,-28.655886,151.934118,Stanthorpe,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4382,-28.801221499999997,151.84290499999997,Ballandean,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4390,-28.53931,150.30623,Goondiwindi,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4401,-27.433832,151.721427,Oakey,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4405,-27.182793,151.265893,Dalby,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4412,-26.869439,150.797797,Brigalow,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4470,-26.413297,146.260665,Charleville,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4482,-25.898966,139.352205,Birdsville,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4489,-27.247336,145.980904,Wyandra,Queensland,Regional Centres and Other Regional Areas,4306,4498
+4507,-27.0849,153.15961,Bongaree,Queensland,Regional Centres and Other Regional Areas,4507,4507
+4552,-26.775769,152.892406,Maleny,Queensland,Regional Centres and Other Regional Areas,4552,4552
+4563,-26.41836,152.91036,Cooroy,Queensland,Regional Centres and Other Regional Areas,4563,4563
+4570,-26.195063,152.673637,Gympie,Queensland,Regional Centres and Other Regional Areas,4570,4570
+4570,-26.217044,152.65101,Southside,Queensland,Regional Centres and Other Regional Areas,4570,4570
+4570,-26.35,152.68333,Amamoor,Queensland,Regional Centres and Other Regional Areas,4570,4570
+4580,-25.91667,153.0,Tin Can Bay,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4581,-25.90283,153.09233,Rainbow Beach,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4600,-26.08333,152.23333,Kilkivan,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4608,-26.40994,151.81513,Wooroolin,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4650,-25.53756,152.70453,Maryborough,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4655,-25.282119,152.901617,Urangan,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4655,-25.284361,152.861392,Scarness,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4655,-25.422777,152.917084,River Heads,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4660,-25.1,152.55,Woodgate,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4670,-24.831453,152.466155,Bargara,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4670,-24.86421,152.34935,Bundaberg Central,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4670,-24.860081,152.345071,Bundaberg North,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4670,-24.87858,152.35561,Walkervale,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4670,-24.888054,152.327502,Svensson Heights,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4677,-24.168021,151.881992,Seventeen Seventy,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4678,-24.243629,151.495442,Bororen,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4680,-23.857795,151.269298,South Gladstone,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4680,-23.841565,151.254489,Gladstone Central,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4680,-23.870623000000002,151.2234765,Clinton,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4700,-23.379867,150.502005,The Range,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4700,-23.37429,150.51071,Rockhampton,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4701,-23.36257,150.52243,Berserker,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4701,-23.324569,150.51817,Norman Gardens,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4703,-23.163373,150.787069,Rosslyn,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4703,-23.128915,150.743234,Yeppoon,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4730,-23.444052499999998,144.274745,Longreach,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4733,-22.475641,143.18363,Corfield,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4736,-24.83333,143.06667,Jundah,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4737,-21.38889075,149.31328625,Sarina Beach,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4739,-21.91667,149.41667,Carmila,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4740,-21.14268,149.185678,Mackay,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4740,-21.15193,149.18797,South Mackay,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4740,-21.152892,149.165531,West Mackay,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4740,-21.118158,149.15856,Mount Pleasant,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4741,-20.83527,148.650169,Yalboroo,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4802,-20.347261,148.956841,Whitsundays,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4802,-20.268822,148.720756,Airlie Beach,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4805,-20.01548,148.24789,Bowen,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4807,-19.57616,147.40473,Ayr,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4810,-19.249557,146.815632,North Ward,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4810,-19.259647,146.816906,Townsville City,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4810,-19.260528,146.821288,South Townsville,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4810,-19.26768,146.798534,West End,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4812,-19.271752,146.790948,Pimlico,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4812,-19.284254,146.79843,Hermit Park,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4815,-19.363269,146.731387,Rasmussen,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4817,-19.318452,146.711229,Kirwan,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4817,-19.315318,146.72723,Thuringowa Central,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4818,-19.262302,146.702697,Shaw,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4819,-19.11766,146.86124,Horseshoe Bay,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4819,-19.159079,146.854647,Nelly Bay,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4819,-19.133353749999998,146.78311424999998,West Point,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4825,-20.725273,139.494319,Mount Isa City,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4852,-17.867367,146.108148,Mission Beach,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4852,-17.9030345,146.097085,Wongaling Beach,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4865,-17.093129,145.786911,Gordonvale,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4869,-17.020107,145.744292,Edmonton,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4870,-16.922095,145.780908,Cairns City,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4871,-16.758836,145.972189,Green Island,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4872,-17.215146,145.543399,Kairi,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4873,-16.090574,145.461129,Cape Tribulation,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4873,-16.262136,145.337937,Daintree,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4873,-16.474401,145.348249,Mossman Gorge,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4873,-16.462382,145.373248,Mossman,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4874,-12.634861,141.878578,Rocky Point,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4875,-10.58437,142.22137,Thursday Island,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4877,-16.481394,145.461979,Port Douglas,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4877,-16.526588,145.472965,Craiglie,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4878,-16.852027,145.748856,Machans Beach,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4878,-16.811443,145.720682,Yorkeys Knob,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4878,-16.834618,145.692045,Smithfield,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4879,-16.743188,145.670938,Palm Cove,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4879,-16.785971,145.697436,Trinity Beach,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4880,-16.992606,145.421906,Mareeba,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4881,-16.819829,145.635928,Kuranda,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4884,-17.2854,145.6270915,Lake Eacham,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4886,-17.510937,145.613561,Millaa Millaa,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4891,-17.461,140.827505,Karumba,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4892,-13.944097,143.199797,Coen,Queensland,Regional Centres and Other Regional Areas,4580,4895
+4895,-15.466251,145.250035,Cooktown,Queensland,Regional Centres and Other Regional Areas,4580,4895
+6000,-31.957913,115.865974,Perth,Western Australia,Cities and Major Regional Centres,6000,6038
+6003,-31.94658,115.86058,Northbridge,Western Australia,Cities and Major Regional Centres,6000,6038
+6003,-31.93884,115.86905,Highgate,Western Australia,Cities and Major Regional Centres,6000,6038
+6004,-31.95882,115.868605,East Perth,Western Australia,Cities and Major Regional Centres,6000,6038
+6008,-31.947035,115.829047,Subiaco,Western Australia,Cities and Major Regional Centres,6000,6038
+6009,-31.985149,115.824263,Crawley,Western Australia,Cities and Major Regional Centres,6000,6038
+6009,-31.99462,115.796,Dalkeith,Western Australia,Cities and Major Regional Centres,6000,6038
+6009,-31.979343,115.80299,Nedlands,Western Australia,Cities and Major Regional Centres,6000,6038
+6010,-31.982309,115.779982,Claremont,Western Australia,Cities and Major Regional Centres,6000,6038
+6011,-31.989073,115.752473,Cottesloe,Western Australia,Cities and Major Regional Centres,6000,6038
+6012,-32.007207,115.771772,Mosman Park,Western Australia,Cities and Major Regional Centres,6000,6038
+6014,-31.947378,115.802505,Floreat,Western Australia,Cities and Major Regional Centres,6000,6038
+6014,-31.94111,115.81123,Wembley,Western Australia,Cities and Major Regional Centres,6000,6038
+6015,-31.937926,115.755749,City Beach,Western Australia,Cities and Major Regional Centres,6000,6038
+6017,-31.906867,115.810344,Osborne Park,Western Australia,Cities and Major Regional Centres,6000,6038
+6018,-31.904048,115.799074,Innaloo,Western Australia,Cities and Major Regional Centres,6000,6038
+6019,-31.897189,115.756931,Scarborough,Western Australia,Cities and Major Regional Centres,6000,6038
+6020,-31.855942,115.754419,North Beach,Western Australia,Cities and Major Regional Centres,6000,6038
+6021,-31.861661,115.826303,Balcatta,Western Australia,Cities and Major Regional Centres,6000,6038
+6024,-31.84468,115.811707,Warwick,Western Australia,Cities and Major Regional Centres,6000,6038
+6025,-31.77962,115.76498,Craigie,Western Australia,Cities and Major Regional Centres,6000,6038
+6025,-31.797102,115.75117,Hillarys,Western Australia,Cities and Major Regional Centres,6000,6038
+6026,-31.80755,115.789345,Kingsley,Western Australia,Cities and Major Regional Centres,6000,6038
+6027,-31.745166,115.765926,Joondalup,Western Australia,Cities and Major Regional Centres,6000,6038
+6027,-31.767491,115.776619,Edgewater,Western Australia,Cities and Major Regional Centres,6000,6038
+6030,-31.67247,115.70766,Quinns Rocks,Western Australia,Cities and Major Regional Centres,6000,6038
+6030,-31.690699,115.717903,Clarkson,Western Australia,Cities and Major Regional Centres,6000,6038
+6050,-31.933535,115.873419,Mount Lawley,Western Australia,Cities and Major Regional Centres,6050,6083
+6051,-31.92934,115.89213,Maylands,Western Australia,Cities and Major Regional Centres,6050,6083
+6053,-31.918691,115.912607,Bayswater,Western Australia,Cities and Major Regional Centres,6050,6083
+6055,-31.883077,115.986689,Caversham,Western Australia,Cities and Major Regional Centres,6050,6083
+6055,-31.823437,116.000827,Henley Brook,Western Australia,Cities and Major Regional Centres,6050,6083
+6055,-31.854933,115.987885,West Swan,Western Australia,Cities and Major Regional Centres,6050,6083
+6055,-31.89864,115.97207,Guildford,Western Australia,Cities and Major Regional Centres,6050,6083
+6056,-31.816557,116.021073,Herne Hill,Western Australia,Cities and Major Regional Centres,6050,6083
+6056,-31.89216,116.01276,Midland,Western Australia,Cities and Major Regional Centres,6050,6083
+6057,-31.935376,116.005273,High Wycombe,Western Australia,Cities and Major Regional Centres,6050,6083
+6062,-31.895182,115.895809,Morley,Western Australia,Cities and Major Regional Centres,6050,6083
+6063,-31.870424,115.94508,Beechboro,Western Australia,Cities and Major Regional Centres,6050,6083
+6064,-31.830209,115.853514,Alexander Heights,Western Australia,Cities and Major Regional Centres,6050,6083
+6065,-31.717594,115.778496,Wanneroo,Western Australia,Cities and Major Regional Centres,6050,6083
+6065,-31.812681,115.843952,Darch,Western Australia,Cities and Major Regional Centres,6050,6083
+6066,-31.840433,115.894539,Ballajura,Western Australia,Cities and Major Regional Centres,6050,6083
+6069,-31.782069,115.967376,Ellenbrook,Western Australia,Cities and Major Regional Centres,6050,6083
+6071,-31.905091,116.091247,Glen Forrest,Western Australia,Cities and Major Regional Centres,6050,6083
+6073,-31.901315,116.16705,Mundaring,Western Australia,Cities and Major Regional Centres,6050,6083
+6090,-31.853255,115.882068,Malaga,Western Australia,Cities and Major Regional Centres,6090,6182
+6101,-31.986964,115.904559,East Victoria Park,Western Australia,Cities and Major Regional Centres,6090,6182
+6102,-31.992279,115.888639,Bentley,Western Australia,Cities and Major Regional Centres,6090,6182
+6105,-31.941517,115.974317,Perth Airport,Western Australia,Cities and Major Regional Centres,6090,6182
+6107,-32.012664,115.925396,Cannington,Western Australia,Cities and Major Regional Centres,6090,6182
+6108,-32.055972,115.962625,Thornlie,Western Australia,Cities and Major Regional Centres,6090,6182
+6109,-32.05372,115.978242,Maddington,Western Australia,Cities and Major Regional Centres,6090,6182
+6110,-32.071551,116.00215,Gosnells,Western Australia,Cities and Major Regional Centres,6090,6182
+6110,-32.080637,115.966715,Huntingdale,Western Australia,Cities and Major Regional Centres,6090,6182
+6112,-32.13122,116.00103,Seville Grove,Western Australia,Cities and Major Regional Centres,6090,6182
+6112,-32.14782700000001,115.9400325,Forrestdale,Western Australia,Cities and Major Regional Centres,6090,6182
+6147,-32.040555,115.904638,Parkwood,Western Australia,Cities and Major Regional Centres,6090,6182
+6149,-32.064137,115.858169,Bull Creek,Western Australia,Cities and Major Regional Centres,6090,6182
+6150,-32.06951,115.84464,Murdoch,Western Australia,Cities and Major Regional Centres,6090,6182
+6151,-31.973083,115.85247799999999,South Perth,Western Australia,Cities and Major Regional Centres,6090,6182
+6153,-32.003026,115.842199,Applecross,Western Australia,Cities and Major Regional Centres,6090,6182
+6154,-32.045426,115.812505,Myaree,Western Australia,Cities and Major Regional Centres,6090,6182
+6155,-32.085878,115.933834,Canning Vale,Western Australia,Cities and Major Regional Centres,6090,6182
+6155,-32.056742,115.880511,Willetton,Western Australia,Cities and Major Regional Centres,6090,6182
+6158,-32.044093,115.760985,East Fremantle,Western Australia,Cities and Major Regional Centres,6090,6182
+6159,-32.029114,115.74907,North Fremantle,Western Australia,Cities and Major Regional Centres,6090,6182
+6160,-32.058694,115.742623,Fremantle,Western Australia,Cities and Major Regional Centres,6090,6182
+6163,-32.111455,115.764214,North Coogee,Western Australia,Cities and Major Regional Centres,6090,6182
+6163,-32.074509,115.781323,Hilton,Western Australia,Cities and Major Regional Centres,6090,6182
+6164,-32.132861,115.857193,Success,Western Australia,Cities and Major Regional Centres,6090,6182
+6164,-32.106952,115.827773,South Lake,Western Australia,Cities and Major Regional Centres,6090,6182
+6166,-32.15931,115.769715,Henderson,Western Australia,Cities and Major Regional Centres,6090,6182
+6167,-32.245305,115.814567,Kwinana Town Centre,Western Australia,Cities and Major Regional Centres,6090,6182
+6167,-32.247108499999996,115.7578625,Kwinana Beach,Western Australia,Cities and Major Regional Centres,6090,6182
+6168,-32.275622,115.728112,Rockingham,Western Australia,Cities and Major Regional Centres,6090,6182
+6169,-32.346563,115.762405,Warnbro,Western Australia,Cities and Major Regional Centres,6090,6182
+6169,-32.314195,115.753628,Waikiki,Western Australia,Cities and Major Regional Centres,6090,6182
+6169,-32.302275,115.712181,Safety Bay,Western Australia,Cities and Major Regional Centres,6090,6182
+6171,-32.338314,115.802977,Baldivis,Western Australia,Cities and Major Regional Centres,6090,6182
+6173,-32.407393,115.759034,Secret Harbour,Western Australia,Cities and Major Regional Centres,6090,6182
+6208,-32.627991,115.874059,Pinjarra,Western Australia,Cities and Major Regional Centres,6208,6211
+6210,-32.525647,115.717126,Mandurah,Western Australia,Cities and Major Regional Centres,6208,6211
+6210,-32.602615,115.6379,Wannanup,Western Australia,Cities and Major Regional Centres,6208,6211
+5000,-34.92354,138.598783,Adelaide,South Australia,Cities and Major Regional Centres,5000,5171
+5006,-34.91747,138.58805,North Adelaide,South Australia,Cities and Major Regional Centres,5000,5171
+5010,-34.856058,138.562846,Angle Park,South Australia,Cities and Major Regional Centres,5000,5171
+5010,-34.859911,138.570058,Regency Park,South Australia,Cities and Major Regional Centres,5000,5171
+5012,-34.851375,138.547172,Mansfield Park,South Australia,Cities and Major Regional Centres,5000,5171
+5014,-34.864138,138.518703,Alberton,South Australia,Cities and Major Regional Centres,5000,5171
+5015,-34.842873,138.504563,Port Adelaide,South Australia,Cities and Major Regional Centres,5000,5171
+5019,-34.848099,138.477166,Semaphore South,South Australia,Cities and Major Regional Centres,5000,5171
+5019,-34.83905,138.48287,Semaphore,South Australia,Cities and Major Regional Centres,5000,5171
+5021,-34.879416,138.491404,West Lakes,South Australia,Cities and Major Regional Centres,5000,5171
+5022,-34.919455,138.493876,Henley Beach,South Australia,Cities and Major Regional Centres,5000,5171
+5022,-34.900873,138.490648,Grange,South Australia,Cities and Major Regional Centres,5000,5171
+5039,-34.974104,138.573852,Clarence Gardens,South Australia,Cities and Major Regional Centres,5000,5171
+5039,-34.972256,138.573313,Edwardstown,South Australia,Cities and Major Regional Centres,5000,5171
+5039,-34.990243,138.576112,Melrose Park,South Australia,Cities and Major Regional Centres,5000,5171
+5042,-35.0188555,138.57494,Bedford Park,South Australia,Cities and Major Regional Centres,5000,5171
+5042,-34.999052,138.57066,Clovelly Park,South Australia,Cities and Major Regional Centres,5000,5171
+5045,-34.976138,138.510496,Glenelg,South Australia,Cities and Major Regional Centres,5000,5171
+5046,-35.017354,138.545636,Oaklands Park,South Australia,Cities and Major Regional Centres,5000,5171
+5048,-35.017281,138.516807,Brighton,South Australia,Cities and Major Regional Centres,5000,5171
+5048,-35.007327,138.522062,North Brighton,South Australia,Cities and Major Regional Centres,5000,5171
+5049,-35.031476,138.517827,Seacliff,South Australia,Cities and Major Regional Centres,5000,5171
+5052,-35.00005,138.606801,Belair,South Australia,Cities and Major Regional Centres,5000,5171
+5062,-34.9789,138.62029,Mitcham,South Australia,Cities and Major Regional Centres,5000,5171
+5062,-34.9711985,138.6085005,Hawthorn,South Australia,Cities and Major Regional Centres,5000,5171
+5066,-34.969457,138.680685,Waterfall Gully,South Australia,Cities and Major Regional Centres,5000,5171
+5067,-34.92043,138.6178,Kent Town,South Australia,Cities and Major Regional Centres,5000,5171
+5067,-34.927627,138.624007,Norwood,South Australia,Cities and Major Regional Centres,5000,5171
+5072,-34.921039,138.679667,Rosslyn Park,South Australia,Cities and Major Regional Centres,5000,5171
+5072,-34.913428,138.674777,Magill,South Australia,Cities and Major Regional Centres,5000,5171
+5084,-34.858352,138.582961,Kilburn,South Australia,Cities and Major Regional Centres,5000,5171
+5086,-34.871525,138.628647,Greenacres,South Australia,Cities and Major Regional Centres,5000,5171
+5086,-34.871293,138.636575,Hampstead Gardens,South Australia,Cities and Major Regional Centres,5000,5171
+5088,-34.844911,138.671382,Holden Hill,South Australia,Cities and Major Regional Centres,5000,5171
+5090,-34.837901,138.701001,Hope Valley,South Australia,Cities and Major Regional Centres,5000,5171
+5091,-34.82085,138.727112,Tea Tree Gully,South Australia,Cities and Major Regional Centres,5000,5171
+5092,-34.83066,138.68912,Modbury,South Australia,Cities and Major Regional Centres,5000,5171
+5092,-34.828419,138.673208,Modbury North,South Australia,Cities and Major Regional Centres,5000,5171
+5094,-34.827659,138.598787,Cavan,South Australia,Cities and Major Regional Centres,5000,5171
+5095,-34.835899,138.624988,Pooraka,South Australia,Cities and Major Regional Centres,5000,5171
+5096,-34.810248,138.645188,Para Hills West,South Australia,Cities and Major Regional Centres,5000,5171
+5098,-34.830097,138.64732,Ingle Farm,South Australia,Cities and Major Regional Centres,5000,5171
+5106,-34.78687,138.644593,Salisbury South,South Australia,Cities and Major Regional Centres,5000,5171
+5108,-34.753061,138.633203,Salisbury North,South Australia,Cities and Major Regional Centres,5000,5171
+5108,-34.760545,138.645779,Salisbury,South Australia,Cities and Major Regional Centres,5000,5171
+5108,-34.767725,138.624907,Salisbury Downs,South Australia,Cities and Major Regional Centres,5000,5171
+5112,-34.718755,138.669939,Elizabeth,South Australia,Cities and Major Regional Centres,5000,5171
+5112,-34.747989,138.667809,Elizabeth Vale,South Australia,Cities and Major Regional Centres,5000,5171
+5112,-34.732362,138.661248,Elizabeth South,South Australia,Cities and Major Regional Centres,5000,5171
+5113,-34.689856000000006,138.667066,Davoren Park,South Australia,Cities and Major Regional Centres,5000,5171
+5118,-34.597396,138.747619,Gawler,South Australia,Cities and Major Regional Centres,5000,5171
+5118,-34.584711,138.746617,Willaston,South Australia,Cities and Major Regional Centres,5000,5171
+5125,-34.790352,138.69519,Golden Grove,South Australia,Cities and Major Regional Centres,5000,5171
+5126,-34.805628,138.70255,Surrey Downs,South Australia,Cities and Major Regional Centres,5000,5171
+5136,-34.92285,138.724655,Norton Summit,South Australia,Cities and Major Regional Centres,5000,5171
+5152,-35.004882,138.716034,Stirling,South Australia,Cities and Major Regional Centres,5000,5171
+5157,-35.109579,138.628372,Clarendon,South Australia,Cities and Major Regional Centres,5000,5171
+5158,-35.077076,138.51776,Hallett Cove,South Australia,Cities and Major Regional Centres,5000,5171
+5159,-35.07547,138.5928,Aberfoyle Park,South Australia,Cities and Major Regional Centres,5000,5171
+5159,-35.083151,138.561898,Happy Valley,South Australia,Cities and Major Regional Centres,5000,5171
+5160,-35.106197,138.505063,Lonsdale,South Australia,Cities and Major Regional Centres,5000,5171
+5162,-35.10683,138.521622,Morphett Vale,South Australia,Cities and Major Regional Centres,5000,5171
+5165,-35.139295,138.481798,Christies Beach,South Australia,Cities and Major Regional Centres,5000,5171
+5166,-35.119018,138.47526349999998,O'Sullivan Beach,South Australia,Cities and Major Regional Centres,5000,5171
+5167,-35.148534,138.470364,Port Noarlunga,South Australia,Cities and Major Regional Centres,5000,5171
+5168,-35.139967,138.493841,Noarlunga Centre,South Australia,Cities and Major Regional Centres,5000,5171
+5169,-35.190054,138.47905,Seaford,South Australia,Cities and Major Regional Centres,5000,5171
+5171,-35.229436,138.551412,Mclaren Vale,South Australia,Cities and Major Regional Centres,5000,5171
+5171,-35.207218499999996,138.58678550000002,Mclaren Flat,South Australia,Cities and Major Regional Centres,5000,5171
+5173,-35.2800005,138.4537405,Aldinga Beach,South Australia,Cities and Major Regional Centres,5173,5174
+5174,-35.329303,138.473718,Sellicks Hill,South Australia,Cities and Major Regional Centres,5173,5174
+5174,-35.329879,138.4479945,Sellicks Beach,South Australia,Cities and Major Regional Centres,5173,5174
+5242,-34.992595,138.827939,Balhannah,South Australia,Cities and Major Regional Centres,5240,5252
+5251,-35.064369,138.858883,Mount Barker,South Australia,Cities and Major Regional Centres,5240,5252
+5252,-35.036568,138.913182,Nairne,South Australia,Cities and Major Regional Centres,5240,5252
+5351,-34.590924,138.877203,Lyndoch,South Australia,Cities and Major Regional Centres,5351,5351
+7000,-42.883933,147.333492,Hobart,Tasmania,Cities and Major Regional Centres,7000,7000
+7000,-42.872562,147.31482,North Hobart,Tasmania,Cities and Major Regional Centres,7000,7000
+7000,-42.865283,147.33046,Queens Domain,Tasmania,Cities and Major Regional Centres,7000,7000
+7004,-42.886718,147.334597,Battery Point,Tasmania,Cities and Major Regional Centres,7004,7026
+7004,-42.89538,147.30767,South Hobart,Tasmania,Cities and Major Regional Centres,7004,7026
+7007,-42.92449,147.344174,Mount Nelson,Tasmania,Cities and Major Regional Centres,7004,7026
+7008,-42.866055,147.298139,Lenah Valley,Tasmania,Cities and Major Regional Centres,7004,7026
+7008,-42.858497,147.309128,New Town,Tasmania,Cities and Major Regional Centres,7004,7026
+7009,-42.84794,147.29791,Moonah,Tasmania,Cities and Major Regional Centres,7004,7026
+7010,-42.833356,147.275812,Glenorchy,Tasmania,Cities and Major Regional Centres,7004,7026
+7010,-42.829198000000005,147.2922635,Goodwood,Tasmania,Cities and Major Regional Centres,7004,7026
+7011,-42.811821,147.261367,Berriedale,Tasmania,Cities and Major Regional Centres,7004,7026
+7015,-42.84762,147.35269,Lindisfarne,Tasmania,Cities and Major Regional Centres,7004,7026
+7015,-42.857265,147.35542149999998,Rose Bay,Tasmania,Cities and Major Regional Centres,7004,7026
+7109,-43.03333,147.03333,Huonville,Tasmania,Cities and Major Regional Centres,7030,7109
+7140,-42.78061,147.06519,New Norfolk,Tasmania,Cities and Major Regional Centres,7140,7151
+7150,-43.149517,147.323398,North Bruny,Tasmania,Cities and Major Regional Centres,7140,7151
+7150,-43.361034,147.328768,Adventure Bay,Tasmania,Cities and Major Regional Centres,7140,7151
+7150,-43.315793,147.257014,Alonnah,Tasmania,Cities and Major Regional Centres,7140,7151
+7170,-42.858624,147.50703049999998,Seven Mile Beach,Tasmania,Cities and Major Regional Centres,7170,7177
