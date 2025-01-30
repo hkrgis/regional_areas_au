@@ -7,7 +7,7 @@ from folium import plugins
 
 
 # Load dataset
-postcode_data = pd.read_csv("data/geocoded_postcodes.csv")
+postcode_data = pd.read_csv("postcode_updated.csv")
 
 # Create a list to store markers and their search data
 marker_list = []
@@ -22,7 +22,7 @@ category_colors = {
 # Prepare a color dictionary for states
 state_colors = {
     "New South Wales": "#add8e6",
-    "Victoria": "#98fb98",
+    "Victoria": "#98fb98",  
     "Queensland": "#ffcccb",
     "Western Australia": "#ffe4e1",
     "South Australia": "#fffacd",
@@ -64,6 +64,10 @@ folium.TileLayer(
 # Create a dictionary to store MarkerClusters for each state
 state_marker_clusters = {}
 
+# Helper function to format postcode to four digits
+def format_postcode(postcode):
+    return f"{postcode:04d}"
+
 # Iterate over each state to plot postcodes
 for state in postcode_data['state'].unique():
     # Filter data for the current state
@@ -72,7 +76,11 @@ for state in postcode_data['state'].unique():
     # Initialize a MarkerCluster for the state
     marker_cluster = MarkerCluster(
         name=state,
-        options={"showCoverageOnHover": False, "removeOutsideVisibleBounds": True, "spiderfyOnMaxZoom": True}
+        options={"showCoverageOnHover": False, 
+                 "removeOutsideVisibleBounds": True, 
+                 "spiderfyOnMaxZoom": True,
+                 "maxClusterRadius": 200
+                }
     ).add_to(m)
     
     # Iterate over postcodes in the current state
@@ -97,6 +105,9 @@ for state in postcode_data['state'].unique():
         
         # Google Maps directions link
         directions_link = f"https://www.google.com/maps/dir/?api=1&destination={row['latitude']},{row['longitude']}&travelmode=driving"
+
+        # Format postcode to ensure it's four digits
+        formatted_postcode = format_postcode(int(row['postcode']))  # Assuming postcode is stored as a number or string
         
         # Create an HTML table for the popup with directions link
         popup_html = f"""
@@ -128,8 +139,8 @@ for state in postcode_data['state'].unique():
         </style>
         <table>
             <tr><th colspan="2">{clean_filename} </th></tr>
-            <tr><td><b>Locality</b></td><td>{row['place_name']}</td></tr>
-            <tr><td><b>Postcode</b></td><td>{row['postcode']}</td></tr>
+            <tr><td><b>LGA</b></td><td>{row['lga_name']}</td></tr>
+            <tr><td><b>Postcode</b></td><td>{formatted_postcode}</td></tr>
             <tr><td><b>State</b></td><td>{state}</td></tr>
             <tr class="category"><td><b>Category</b></td><td>{category}</td></tr>
             <tr><td colspan="2" style="text-align:center; padding-top: 5px;">
@@ -157,7 +168,7 @@ for state in postcode_data['state'].unique():
 state_polygons_group = folium.FeatureGroup(name='State Borders').add_to(m)
 
 # Add state polygons with fill colors and meaningful names (optional, can be replaced by another GeoJSON)
-state_geojson = 'data/states.geojson'
+state_geojson = 'data/states2.geojson'
 folium.GeoJson(
     state_geojson,
     name='State Borders', 
