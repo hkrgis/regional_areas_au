@@ -7,7 +7,7 @@ from folium import plugins
 
 
 # Load dataset
-postcode_data = pd.read_csv("postcode_updated.csv")
+postcode_data = pd.read_csv("data/postcode_updated.csv")
 
 # Create a list to store markers and their search data
 marker_list = []
@@ -35,9 +35,19 @@ state_colors = {
 map_center = [-25.2744, 133.7751]  # Rough center of Australia
 m = folium.Map(location=map_center, zoom_start=4, control_scale=True, tiles=None)
 
+# Add basemaps
+basemaps = {}
+
+# Add CartoDB positron basemap
+basemaps['Light Map'] = folium.TileLayer(
+    tiles='https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+    attr='© OpenStreetMap contributors & CARTO',
+    name="Light Map",
+    subdomains='abcd'
+).add_to(m)
 
 # Add Hybrid Imagery basemap
-folium.TileLayer(
+basemaps['Satellite Hybrid Imagery'] = folium.TileLayer(
     tiles="https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
     attr="© Google",
     name="Satellite Hybrid Imagery",
@@ -45,20 +55,14 @@ folium.TileLayer(
 ).add_to(m)
 
 # Add CartoDB Dark Matter basemap
-folium.TileLayer(
+basemaps['Dark Map'] = folium.TileLayer(
     tiles='https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
     attr='© OpenStreetMap contributors & CARTO',
     name='Dark Map',
     subdomains='abcd'
 ).add_to(m)
 
-# Add CartoDB positron basemap
-folium.TileLayer(
-    tiles='https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
-    attr='© OpenStreetMap contributors & CARTO',
-    name="Light Map",
-    subdomains='abcd'
-).add_to(m)
+
 
 
 # Create a dictionary to store MarkerClusters for each state
@@ -79,7 +83,7 @@ for state in postcode_data['state'].unique():
         options={"showCoverageOnHover": False, 
                  "removeOutsideVisibleBounds": True, 
                  "spiderfyOnMaxZoom": True,
-                 "maxClusterRadius": 200
+                 "maxClusterRadius": 130
                 }
     ).add_to(m)
     
@@ -181,10 +185,27 @@ folium.GeoJson(
 ).add_to(state_polygons_group)
 
 
+# Custom Layer Control with groups for multi-select
+basemaps_layer_control = plugins.GroupedLayerControl(
+    groups={
+        'Basemaps': list(basemaps.values()),
+    },
+    exclusive_groups=['Basemaps'],
+    collapsed=True  # Optional: start with the control expanded
+)
+basemaps_layer_control.add_to(m)
 
+# Custom Layer Control with groups for multi-select
+layer_control = plugins.GroupedLayerControl(
+    groups={
+        'State Postcodes': list(state_marker_clusters.values()),
+        'State Borders': [state_polygons_group]
+    },
+    exclusive_groups=[],
+    collapsed=False  # Optional: start with the control expanded
+)
+layer_control.add_to(m)
 
-# Add a LayerControl to toggle state postcodes
-folium.LayerControl(position="topright").add_to(m)
 
 # Save the map as an HTML file
 m.save("index.html")
