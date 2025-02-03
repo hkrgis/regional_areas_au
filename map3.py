@@ -83,7 +83,7 @@ for state in postcode_data['state'].unique():
         options={"showCoverageOnHover": False, 
                  "removeOutsideVisibleBounds": True, 
                  "spiderfyOnMaxZoom": True,
-                 "maxClusterRadius": 130
+                 "maxClusterRadius": 180
                 }
     ).add_to(m)
     
@@ -202,7 +202,7 @@ layer_control = plugins.GroupedLayerControl(
         'State Borders': [state_polygons_group]
     },
     exclusive_groups=[],
-    collapsed=False  # Optional: start with the control expanded
+    collapsed=True  # Optional: start with the control expanded
 )
 layer_control.add_to(m)
 
@@ -210,3 +210,48 @@ layer_control.add_to(m)
 # Save the map as an HTML file
 m.save("index.html")
 print("Map saved as 'index.html'.")
+
+
+
+# Manually edit the generated HTML file to add responsive meta tags and CSS
+with open("index.html", "r") as file:
+    content = file.read()
+
+# Add meta tags and CSS for responsiveness
+responsive_content = """
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+        }
+        @media (max-width: 600px) {
+            #map {
+                height: 80vh; /* Adjust height for smaller screens */
+            }
+            .folium-popup {
+                max-width: 150px; /* Smaller popups on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+""" + content + """
+</body>
+</html>
+"""
+
+with open("index.html", "w") as file:
+    file.write(responsive_content)
+
+print("Map saved again as 'index.html'.")
