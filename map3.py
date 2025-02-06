@@ -33,7 +33,16 @@ state_colors = {
 
 # Initialize map centered on Australia
 map_center = [-25.2744, 133.7751]  # Rough center of Australia
-m = folium.Map(location=map_center, zoom_start=4, control_scale=True, tiles=None)
+m = folium.Map(location=map_center, zoom_start=4, control_scale=True, tiles=None, min_zoom=3)
+
+# These coordinates are adjusted to include a small buffer around the mainland and Tasmania
+australia_bounds = [
+    [-44.0, 112.0],  # Southwest corner with buffer
+    [-10.0, 154.0]   # Northeast corner with buffer
+]
+# Set maxBounds with the buffer to limit the map view to Australia with some extra space
+m.fit_bounds(australia_bounds)  # This ensures the map initially fits within these bounds
+m.options['maxBounds'] = australia_bounds  # This limits zooming outside these bounds
 
 # Add basemaps
 basemaps = {}
@@ -186,7 +195,8 @@ folium.GeoJson(
 # Custom Layer Control with groups for multi-select
 basemaps_layer_control = plugins.GroupedLayerControl(
     groups={
-        'Basemaps': list(basemaps.values()),
+        'Basemaps': list(basemaps.values()), 
+    
     },
     exclusive_groups=['Basemaps'],
     collapsed=True  # Optional: start with the control expanded
@@ -245,14 +255,17 @@ responsive_content = """
                 height: 80vh; 
             }
             .folium-popup {
-                max-width: 150px; 
+                max-width: 150px;
+                font-size: 10px; /* Smaller text for better fit on mobile */ 
             }
             .leaflet-container {
                 zoom: 0.75; 
             }
             .leaflet-control-layers {
-                max-width: 150px; 
+                max-width: 180px; 
                 font-size: 10px; 
+                max-height: 70vh; /* Limit height to viewport size */
+                overflow-y: auto; 
             }
             .leaflet-marker-icon {
                 width: 16px !important; /* Smaller icon size for mobile */
@@ -265,7 +278,9 @@ responsive_content = """
             }
             .leaflet-control-layers {
                 max-width: 200px; 
-                font-size: 14px; 
+                font-size: 10px; 
+                max-height: 80vh; /* Limit height to viewport size */
+                overflow-y: auto; 
             }
             .leaflet-marker-icon {
                 width: 24px !important; /* Medium icon size for tablets */
@@ -275,11 +290,13 @@ responsive_content = """
         @media (min-width: 1025px) {
             .leaflet-control-layers {
                 max-width: 300px; 
-                font-size: 16px; 
+                font-size: 12px; 
+                max-height: 90vh; /* Limit height to viewport size */
+                overflow-y: auto; 
             }
             .leaflet-marker-icon {
-                width: 32px !important; /* Full size for larger screens */
-                height: 32px !important;
+                width: 24px !important; /* Full size for larger screens */
+                height: 24px !important;
             }
         }
     </style>
