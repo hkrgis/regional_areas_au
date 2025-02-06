@@ -46,14 +46,6 @@ basemaps['Light Map'] = folium.TileLayer(
     subdomains='abcd'
 ).add_to(m)
 
-# Add Hybrid Imagery basemap
-basemaps['Satellite Hybrid Imagery'] = folium.TileLayer(
-    tiles="https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
-    attr="© Google",
-    name="Satellite Hybrid Imagery",
-    subdomains=["mt0", "mt1", "mt2", "mt3"]
-).add_to(m)
-
 # Add CartoDB Dark Matter basemap
 basemaps['Dark Map'] = folium.TileLayer(
     tiles='https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
@@ -62,7 +54,13 @@ basemaps['Dark Map'] = folium.TileLayer(
     subdomains='abcd'
 ).add_to(m)
 
-
+# Add Hybrid Imagery basemap
+basemaps['Satellite Hybrid Imagery'] = folium.TileLayer(
+    tiles="https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
+    attr="© Google",
+    name="Hybrid Imagery",
+    subdomains=["mt0", "mt1", "mt2", "mt3"]
+).add_to(m)
 
 
 # Create a dictionary to store MarkerClusters for each state
@@ -213,11 +211,18 @@ print("Map saved as 'index.html'.")
 
 
 
+"""
+- change zoom based on browser and mobile devices
+- Layer control width and text 
+- Marker size
+
+"""
+
 # Manually edit the generated HTML file to add responsive meta tags and CSS
 with open("index.html", "r") as file:
     content = file.read()
 
-# Add meta tags and CSS for responsiveness
+# Add meta tags and CSS for responsiveness with adjustments for Marker Pins
 responsive_content = """
 <!DOCTYPE html>
 <html>
@@ -233,14 +238,48 @@ responsive_content = """
         }
         #map {
             width: 100%;
-            height: 100vh; /* Full viewport height */
+            height: 100vh; 
         }
         @media (max-width: 600px) {
             #map {
-                height: 80vh; /* Adjust height for smaller screens */
+                height: 80vh; 
             }
             .folium-popup {
-                max-width: 150px; /* Smaller popups on mobile */
+                max-width: 150px; 
+            }
+            .leaflet-container {
+                zoom: 0.75; 
+            }
+            .leaflet-control-layers {
+                max-width: 150px; 
+                font-size: 10px; 
+            }
+            .leaflet-marker-icon {
+                width: 16px !important; /* Smaller icon size for mobile */
+                height: 16px !important; /* Keep aspect ratio */
+            }
+        }
+        @media (min-width: 601px) and (max-width: 1024px) {
+            .leaflet-container {
+                zoom: 1.0; 
+            }
+            .leaflet-control-layers {
+                max-width: 200px; 
+                font-size: 14px; 
+            }
+            .leaflet-marker-icon {
+                width: 24px !important; /* Medium icon size for tablets */
+                height: 24px !important;
+            }
+        }
+        @media (min-width: 1025px) {
+            .leaflet-control-layers {
+                max-width: 300px; 
+                font-size: 16px; 
+            }
+            .leaflet-marker-icon {
+                width: 32px !important; /* Full size for larger screens */
+                height: 32px !important;
             }
         }
     </style>
