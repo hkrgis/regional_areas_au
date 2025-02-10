@@ -52,7 +52,7 @@ basemaps = {}
 # Add CartoDB positron basemap
 basemaps['Light Map'] = folium.TileLayer(
     tiles='https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
-    attr='© OpenStreetMap contributors & CARTO',
+    attr='© CARTO | <a href="https://hkrgis.notion.site/">More info about Map</a>',
     name="Light Map",
     subdomains='abcd'
 ).add_to(m)
@@ -60,7 +60,7 @@ basemaps['Light Map'] = folium.TileLayer(
 # Add CartoDB Dark Matter basemap
 basemaps['Dark Map'] = folium.TileLayer(
     tiles='https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-    attr='© OpenStreetMap contributors & CARTO',
+    attr='© CARTO | <a href="https://hkrgis.notion.site/">More info about Map</a>',
     name='Dark Map',
     subdomains='abcd'
 ).add_to(m)
@@ -68,7 +68,7 @@ basemaps['Dark Map'] = folium.TileLayer(
 # Add Hybrid Imagery basemap
 basemaps['Satellite Hybrid Imagery'] = folium.TileLayer(
     tiles="https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
-    attr="© Google",
+    attr='© Google | <a href="https://hkrgis.notion.site/">More info about Map</a>',
     name="Hybrid Imagery",
     subdomains=["mt0", "mt1", "mt2", "mt3"]
 ).add_to(m)
@@ -94,6 +94,7 @@ for state in postcode_data['state'].unique():
                  "removeOutsideVisibleBounds": True, 
                  "spiderfyOnMaxZoom": True,
                  "maxClusterRadius": 160,  # Adjust the cluster size
+                 "chunkedLoading": True
                 }
     ).add_to(m)
     
@@ -153,11 +154,6 @@ for state in postcode_data['state'].unique():
             <tr><td colspan="2" style="text-align:center; padding-top: 5px;">
                 <a href="{directions_link}" target="_blank" style="color: #337ab7; text-decoration: none;">
                     Get directions (Google Maps)
-                </a>
-            </td></tr>
-            <tr><td colspan="2" style="text-align:center; padding-top: 5px;">
-                <a href="http://hkrgis.notion.site" target="_blank" style="color: #7FA9D6; text-decoration: none; font-style: italic;">
-                    More about this map
                 </a>
             </td></tr>
         </table>
