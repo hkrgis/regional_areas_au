@@ -93,7 +93,7 @@ for state in postcode_data['state'].unique():
         options={"showCoverageOnHover": False, 
                  "removeOutsideVisibleBounds": True, 
                  "spiderfyOnMaxZoom": True,
-                 "maxClusterRadius": 140
+                 "maxClusterRadius": 160,  # Adjust the cluster size
                 }
     ).add_to(m)
     
