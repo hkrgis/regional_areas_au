@@ -4,19 +4,18 @@ import folium
 from folium.plugins import MarkerCluster
 from folium import IFrame
 from folium import plugins
+import matplotlib.colors as mcolors
+
 
 
 # Load dataset
 postcode_data = pd.read_csv("data/postcode_updated.csv")
 
-# Create a list to store markers and their search data
-marker_list = []
-
 # Prepare a color dictionary for categories
 category_colors = {
-    "Cities and Major Regional Centres": "darkgreen",  # Blue
-    "Regional Centres and Other Regional Areas": "lightred",  # Green
-    "Category3": "#e74c3c",  # Red
+    "Cities and major regional centres": mcolors.to_hex("purple"),
+    "Regional centres and other regional areas": mcolors.to_hex("lightcoral"), 
+    "Category3": mcolors.to_hex("gray"), 
 }
 
 # Prepare a color dictionary for states
@@ -33,16 +32,19 @@ state_colors = {
 
 # Initialize map centered on Australia
 map_center = [-25.2744, 133.7751]  # Rough center of Australia
-m = folium.Map(location=map_center, zoom_start=4, control_scale=True, tiles=None, min_zoom=3)
+m = folium.Map(location=map_center, zoom_start=4, control_scale=True, tiles=None, max_zoom=4)
 
 # These coordinates are adjusted to include a small buffer around the mainland and Tasmania
 australia_bounds = [
-    [-44.0, 112.0],  # Southwest corner with buffer
-    [-10.0, 154.0]   # Northeast corner with buffer
+    [-47.0, 107.8],  # Southwest corner with buffer
+    [-6.6, 162]   # Northeast corner with buffer
 ]
 # Set maxBounds with the buffer to limit the map view to Australia with some extra space
 m.fit_bounds(australia_bounds)  # This ensures the map initially fits within these bounds
 m.options['maxBounds'] = australia_bounds  # This limits zooming outside these bounds
+
+# Print status
+print(f"Bounds set to {australia_bounds}")
 
 # Add basemaps
 basemaps = {}
@@ -71,7 +73,6 @@ basemaps['Satellite Hybrid Imagery'] = folium.TileLayer(
     subdomains=["mt0", "mt1", "mt2", "mt3"]
 ).add_to(m)
 
-
 # Create a dictionary to store MarkerClusters for each state
 state_marker_clusters = {}
 
@@ -79,10 +80,12 @@ state_marker_clusters = {}
 def format_postcode(postcode):
     return f"{postcode:04d}"
 
+
 # Iterate over each state to plot postcodes
 for state in postcode_data['state'].unique():
     # Filter data for the current state
     state_data = postcode_data[postcode_data['state'] == state]
+    
     
     # Initialize a MarkerCluster for the state
     marker_cluster = MarkerCluster(
@@ -90,14 +93,15 @@ for state in postcode_data['state'].unique():
         options={"showCoverageOnHover": False, 
                  "removeOutsideVisibleBounds": True, 
                  "spiderfyOnMaxZoom": True,
-                 "maxClusterRadius": 180
+                 "maxClusterRadius": 140
                 }
     ).add_to(m)
     
     # Iterate over postcodes in the current state
     for _, row in state_data.iterrows():
         category = row['category']
-        pin_color = category_colors.get(category, "#808080")  # Default to gray if category color is not defined
+
+        pin_color = category_colors.get(category, "gray")  # Default to gray if category color is not defined
         
         # Filter out points with lat=0, long=0, or far from Australia
         if row['latitude'] == 0 or row['longitude'] == 0 or not (-44 < row['latitude'] < -10) or not (110 < row['longitude'] < 160):
@@ -105,14 +109,6 @@ for state in postcode_data['state'].unique():
 
         # Create a clean filename for the pop-up title
         clean_filename = row['place_name']  # You can customize this further if needed
-        
-        # Add marker data to search list for search functionality
-        marker_list.append({
-            'lat': row['latitude'],
-            'lon': row['longitude'],
-            'popup': clean_filename,  # Locality Name (or any other data you prefer)
-            'postcode': row['postcode']  # Postcode for search functionality
-        })
         
         # Google Maps directions link
         directions_link = f"https://www.google.com/maps/dir/?api=1&destination={row['latitude']},{row['longitude']}&travelmode=driving"
@@ -150,8 +146,8 @@ for state in postcode_data['state'].unique():
         </style>
         <table>
             <tr><th colspan="2">{clean_filename} </th></tr>
-            <tr><td><b>LGA</b></td><td>{row['lga_name']}</td></tr>
             <tr><td><b>Postcode</b></td><td>{formatted_postcode}</td></tr>
+            <tr><td><b>LGA</b></td><td>{row['lga_name']}</td></tr>
             <tr><td><b>State</b></td><td>{state}</td></tr>
             <tr class="category"><td><b>Category</b></td><td>{category}</td></tr>
             <tr><td colspan="2" style="text-align:center; padding-top: 5px;">
@@ -159,17 +155,26 @@ for state in postcode_data['state'].unique():
                     Get directions (Google Maps)
                 </a>
             </td></tr>
+            <tr><td colspan="2" style="text-align:center; padding-top: 5px;">
+                <a href="http://hkrgis.notion.site" target="_blank" style="color: #7FA9D6; text-decoration: none; font-style: italic;">
+                    More about this map
+                </a>
+            </td></tr>
         </table>
         """
 
-        iframe = IFrame(popup_html, width=250, height=200)  # Adjust height as needed
+        iframe = IFrame(popup_html, width=250, height=230)  # Adjust height as needed
         
         # Add the marker to the cluster
-        folium.Marker(
+        tmpMarker = folium.Marker(
             location=(row['latitude'], row['longitude']),
-            icon=folium.Icon(color=pin_color, icon='map-marker', prefix="glyphicon"),
-            popup=folium.Popup(iframe, max_width=255)
+            popup=folium.Popup(iframe, max_width=250)
         ).add_to(marker_cluster)
+
+        plugins.BeautifyIcon(
+            icon='leaf', 
+            border_color=pin_color, 
+        ).add_to(tmpMarker)
 
     # Add the cluster to the LayerControl
     state_marker_clusters[state] = marker_cluster
@@ -187,10 +192,9 @@ folium.GeoJson(
         'fillColor': state_colors.get(feature['properties']['STATE_NAME'], '#ffffff'),
         'color': 'black',
         'weight': 1,
-        'fillOpacity': 0.5
+        'fillOpacity': 0.4
     }
 ).add_to(state_polygons_group)
-
 
 # Custom Layer Control with groups for multi-select
 basemaps_layer_control = plugins.GroupedLayerControl(
@@ -204,15 +208,15 @@ basemaps_layer_control = plugins.GroupedLayerControl(
 basemaps_layer_control.add_to(m)
 
 # Custom Layer Control with groups for multi-select
-layer_control = plugins.GroupedLayerControl(
+postcodes_layer_control = plugins.GroupedLayerControl(
     groups={
         'State Postcodes': list(state_marker_clusters.values()),
-        'State Borders': [state_polygons_group]
+        'State Borders': [state_polygons_group],
     },
     exclusive_groups=[],
     collapsed=True  # Optional: start with the control expanded
 )
-layer_control.add_to(m)
+postcodes_layer_control.add_to(m)
 
 
 # Save the map as an HTML file
@@ -250,6 +254,7 @@ responsive_content = """
             width: 100%;
             height: 100vh; 
         }
+
         @media (max-width: 600px) {
             #map {
                 height: 80vh; 
@@ -267,10 +272,6 @@ responsive_content = """
                 max-height: 70vh; /* Limit height to viewport size */
                 overflow-y: auto; 
             }
-            .leaflet-marker-icon {
-                width: 16px !important; /* Smaller icon size for mobile */
-                height: 16px !important; /* Keep aspect ratio */
-            }
         }
         @media (min-width: 601px) and (max-width: 1024px) {
             .leaflet-container {
@@ -282,10 +283,7 @@ responsive_content = """
                 max-height: 80vh; /* Limit height to viewport size */
                 overflow-y: auto; 
             }
-            .leaflet-marker-icon {
-                width: 24px !important; /* Medium icon size for tablets */
-                height: 24px !important;
-            }
+        
         }
         @media (min-width: 1025px) {
             .leaflet-control-layers {
@@ -293,10 +291,6 @@ responsive_content = """
                 font-size: 12px; 
                 max-height: 90vh; /* Limit height to viewport size */
                 overflow-y: auto; 
-            }
-            .leaflet-marker-icon {
-                width: 24px !important; /* Full size for larger screens */
-                height: 24px !important;
             }
         }
     </style>
