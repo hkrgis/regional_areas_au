@@ -52,7 +52,7 @@ basemaps = {}
 # Add CartoDB positron basemap
 basemaps['Light Map'] = folium.TileLayer(
     tiles='https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
-    attr='© CARTO | <a href="https://hkrgis.notion.site/">More info about Map</a>',
+    attr='© CARTO | <a href="https://hkrgis.notion.site/">About this Map</a>',
     name="Light Map",
     subdomains='abcd'
 ).add_to(m)
@@ -60,7 +60,7 @@ basemaps['Light Map'] = folium.TileLayer(
 # Add CartoDB Dark Matter basemap
 basemaps['Dark Map'] = folium.TileLayer(
     tiles='https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-    attr='© CARTO | <a href="https://hkrgis.notion.site/">More info about Map</a>',
+    attr='© CARTO | <a href="https://hkrgis.notion.site/">About this Map</a>',
     name='Dark Map',
     subdomains='abcd'
 ).add_to(m)
@@ -68,7 +68,7 @@ basemaps['Dark Map'] = folium.TileLayer(
 # Add Hybrid Imagery basemap
 basemaps['Satellite Hybrid Imagery'] = folium.TileLayer(
     tiles="https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
-    attr='© Google | <a href="https://hkrgis.notion.site/">More info about Map</a>',
+    attr='© Google | <a href="https://hkrgis.notion.site/">About this Map</a>',
     name="Hybrid Imagery",
     subdomains=["mt0", "mt1", "mt2", "mt3"]
 ).add_to(m)
@@ -159,7 +159,7 @@ for state in postcode_data['state'].unique():
         </table>
         """
 
-        iframe = IFrame(popup_html, width=250, height=230)  # Adjust height as needed
+        iframe = IFrame(popup_html, width=250, height=200)  # Adjust height as needed
         
         # Add the marker to the cluster
         tmpMarker = folium.Marker(
@@ -237,6 +237,15 @@ responsive_content = """
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VCS1TVMQ1V"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VCS1TVMQ1V');
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -257,7 +266,7 @@ responsive_content = """
             }
             .folium-popup {
                 max-width: 150px;
-                font-size: 10px; /* Smaller text for better fit on mobile */ 
+                font-size: 9px; /* Smaller text for better fit on mobile */ 
             }
             .leaflet-container {
                 zoom: 0.75; 
