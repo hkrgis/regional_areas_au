@@ -52,7 +52,7 @@ basemaps = {}
 # Add CartoDB positron basemap
 basemaps['Light Map'] = folium.TileLayer(
     tiles='https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
-    attr='© CARTO | <a href="https://hkrgis.notion.site/">About this Map</a>',
+    attr='© CARTO | <a href="https://hkrgis.notion.site/" target="_blank" rel="noopener noreferrer">About this Map</a>',
     name="Light Map",
     subdomains='abcd'
 ).add_to(m)
@@ -60,7 +60,7 @@ basemaps['Light Map'] = folium.TileLayer(
 # Add CartoDB Dark Matter basemap
 basemaps['Dark Map'] = folium.TileLayer(
     tiles='https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-    attr='© CARTO | <a href="https://hkrgis.notion.site/">About this Map</a>',
+    attr='© CARTO | <a href="https://hkrgis.notion.site/" target="_blank" rel="noopener noreferrer">About this Map</a>',
     name='Dark Map',
     subdomains='abcd'
 ).add_to(m)
@@ -68,7 +68,7 @@ basemaps['Dark Map'] = folium.TileLayer(
 # Add Hybrid Imagery basemap
 basemaps['Satellite Hybrid Imagery'] = folium.TileLayer(
     tiles="https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
-    attr='© Google | <a href="https://hkrgis.notion.site/">About this Map</a>',
+    attr='© Google | <a href="https://hkrgis.notion.site/" target="_blank" rel="noopener noreferrer">About this Map</a>',
     name="Hybrid Imagery",
     subdomains=["mt0", "mt1", "mt2", "mt3"]
 ).add_to(m)
@@ -240,11 +240,11 @@ responsive_content = """
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VCS1TVMQ1V"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-VCS1TVMQ1V');
+        gtag('config', 'G-VCS1TVMQ1V');
     </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
